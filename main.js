@@ -27,9 +27,6 @@ footer.style.borderTop = '0px'
 const divider = document.getElementsByClassName('block-header__divider')[0]
 divider.style.backgroundColor = '#6211c0'
 
-const divider2 = document.getElementsByClassName('block-header__divider')[1]
-divider2.style.backgroundColor = '#6211c0'
-
 const icons = document.getElementsByClassName('block-features__item')[0]
 icons.style.backgroundColor = '#ffffff'
 

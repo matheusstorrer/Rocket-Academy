@@ -27,9 +27,6 @@ topbar.style.color = '#6211c0'
 topbar.style.heigth = '25px'
 topbar.style.fontSize = '16px'
 
-const spacefooter = document.getElementsByClassName('row')[1]
-spacefooter.style.justifyContent = 'space-between'
-
 const removemapasite = document.getElementsByClassName('row')[1]
 removemapasite.removeChild(removemapasite.children[1])
 
@@ -39,7 +36,13 @@ mercadopago.src = 'https://matheusstorrer.github.io/Rocket-Academy/12xML.jpg'
 const footer = document.getElementsByClassName('site-footer')[0]
 footer.style.borderTop = '0px'
 
+const spacefooter = document.getElementsByClassName('row')[1]
+spacefooter.style.justifyContent = 'space-between'
+
 const divider = document.getElementsByClassName('block-header__divider')[0]
+divider.style.backgroundColor = '#6211c0'
+
+const divider = document.getElementsByClassName('block-header__divider')[1]
 divider.style.backgroundColor = '#6211c0'
 
 const icons = document.getElementsByClassName('block-features__item')[0]

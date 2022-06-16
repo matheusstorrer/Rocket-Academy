@@ -28,7 +28,8 @@ topbar.style.heigth = '25px'
 topbar.style.fontSize = '16px'
 
 const removemapasite = document.getElementsByClassName('row')[1]
-removemapasite.removeChild(removemapasite.children[1])
+removemapasite.setAttribute = ('data', 'removemapsite')
+// removemapasite.removeChild(removemapasite.children[1])
 
 const mercadopago = document.getElementsByClassName('mp')[0]
 mercadopago.src = 'https://matheusstorrer.github.io/Rocket-Academy/12xML.jpg'

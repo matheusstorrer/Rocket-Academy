@@ -11,6 +11,14 @@ body {
   box-shadow: 0 0 0 2px #6211c0 inset;
 }
 
+.topbar {
+  background-color: #ffffff;
+  color: #6211c0;
+  height: 25px;
+  font-size: 14px;
+}
+    
+
 @media (min-width: 992px) {
  .col-lg-4 {
    max-width: 100%;

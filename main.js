@@ -21,6 +21,9 @@ topbar.style.color = '#6211c0'
 topbar.style.heigth = '25px'
 topbar.style.fontSize = '16px'
 
+const mercadopago = document.getElementsByTagName('img')[6]
+mercadopago.src = 'https://matheusstorrer.github.io/Rocket-Academy/12xML.jpg'
+
 const footer = document.getElementsByClassName('site-footer')[0]
 footer.style.borderTop = '0px'
 

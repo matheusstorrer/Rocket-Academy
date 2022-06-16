@@ -11,6 +11,9 @@ document.getElementsByClassName('topbar__row')[0].removeChild(contato)
 const cadastro = document.getElementsByClassName('topbar__item')[1]
 document.getElementsByClassName('topbar__row')[0].removeChild(cadastro)
 
+const vertodos = document.getElementsByClassName('menu__item-link')[5]
+vertodos.innerText = 'Ver Todos'
+
 const topbarPortal = document.getElementsByClassName('topbar-link')[0]
 topbarPortal.innerText = 'Portal do Aluno'
 topbarPortal.href = 'https://www.cursoo.com.br/login'

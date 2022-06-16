@@ -30,7 +30,7 @@ spacefooter.style.justifyContent = 'space-between'
 const removemapasite = document.getElementsByClassName('row')[1]
 removemapasite.removeChild(removemapasite.children[1])
 
-const mercadopago = document.getElementsByTagName('img')[6]
+const mercadopago = document.getElementsByClassName('mp')[0]
 mercadopago.src = 'https://matheusstorrer.github.io/Rocket-Academy/12xML.jpg'
 
 const footer = document.getElementsByClassName('site-footer')[0]

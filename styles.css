@@ -10,3 +10,8 @@ body {
 .product-card:hover::before {
   box-shadow: 0 0 0 2px #6211c0 inset;
 }
+
+@media (min-width: 992px)
+.col-lg-4 {
+  max-width: 100%;
+}

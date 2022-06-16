@@ -21,6 +21,8 @@ topbar.style.color = '#6211c0'
 topbar.style.heigth = '25px'
 topbar.style.fontSize = '16px'
 
+document.getElementsByClassName('row')[1].removeChild(document.getElementsByClassName('row')[1].children[1])
+
 const mercadopago = document.getElementsByTagName('img')[6]
 mercadopago.src = 'https://matheusstorrer.github.io/Rocket-Academy/12xML.jpg'
 

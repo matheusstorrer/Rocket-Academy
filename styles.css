@@ -17,6 +17,11 @@ body {
   height: 25px;
   font-size: 14px;
 }
+
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+    border-color: #6211c0c9;
+    background: #6211c0c9;
+}
     
 
 @media (min-width: 992px) {

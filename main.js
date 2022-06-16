@@ -16,7 +16,7 @@ topbarPortal.innerText = 'Portal do Aluno'
 topbarPortal.href = 'https://www.cursoo.com.br/login'
 
 const endereco = document.getElementsByTagName('li')[12]
-endereco.innerHTML = '<i class="footer-contacts__icon fas fa-globe-americas"></i> "Rua Guilherme Farel, 650 - Londrina / PR"'
+endereco.innerHTML = '<i class="footer-contacts__icon fas fa-globe-americas"></i> Rua Guilherme Farel, 650 - Londrina / PR'
 
 const topbar = document.getElementsByClassName('topbar')[0]
 topbar.style.backgroundColor = '#ffffff'

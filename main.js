@@ -27,9 +27,8 @@ topbar.style.color = '#6211c0'
 topbar.style.heigth = '25px'
 topbar.style.fontSize = '16px'
 
-const removemapasite = document.getElementsByClassName('row')[1]
-removemapasite.setAttribute = ('data', 'removemapsite')
-// removemapasite.removeChild(removemapasite.children[1])
+const removemapasite = document.getElementsByClassName('site-footer__widgets')[0].children[0].children[1]
+removemapasite.remove()
 
 const mercadopago = document.getElementsByClassName('mp')[0]
 mercadopago.src = 'https://matheusstorrer.github.io/Rocket-Academy/12xML.jpg'

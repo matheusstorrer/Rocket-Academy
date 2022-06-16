@@ -1,7 +1,3 @@
-const body = document.getElementsByTagName('body')[0]
-body.style.fontFamily = "'Montserrat', 'sans-serif'"
-body.style.color = '#6211c0'
-
 document.getElementsByClassName('nav-links__item-body')[3].innerText =
   'Todos os Cursos ↓'
 

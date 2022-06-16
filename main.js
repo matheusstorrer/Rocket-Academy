@@ -36,7 +36,7 @@ mercadopago.src = 'https://matheusstorrer.github.io/Rocket-Academy/12xML.jpg'
 const footer = document.getElementsByClassName('site-footer')[0]
 footer.style.borderTop = '0px'
 
-const spacefooter = document.getElementsByClassName('row')[1]
+const spacefooter = document.getElementsByClassName('site-footer__widgets')[0].children[0]
 spacefooter.style.justifyContent = 'space-between'
 
 const divider = document.getElementsByClassName('block-header__divider')[0]

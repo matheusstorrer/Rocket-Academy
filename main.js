@@ -17,12 +17,6 @@ topbarPortal.href = 'https://www.cursoo.com.br/login/1377'
 const endereco = document.getElementsByClassName('footer-contacts__contacts')[0].firstElementChild
 endereco.innerHTML = '<i class="footer-contacts__icon fas fa-globe-americas"></i> Rua Guilherme Farel, 650 - Londrina / PR'
 
-// const topbar = document.getElementsByClassName('topbar')[0]
-// topbar.style.backgroundColor = '#ffffff'
-// topbar.style.color = '#6211c0'
-// topbar.style.heigth = '25px'
-// topbar.style.fontSize = '16px'
-
 const removemapasite = document.getElementsByClassName('site-footer__widgets')[0].children[0].children[1]
 removemapasite.remove()
 

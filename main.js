@@ -25,7 +25,7 @@ topbar.style.heigth = '25px'
 topbar.style.fontSize = '16px'
 
 var boxshadow = document.getElementsByClassName("product-card")
-var boxshadowbefore = window.getComputedStyle(boxshadow, "::before")
+var boxshadowbefore = window.getComputedStyle(boxshadow, ":before")
 boxshadow.style.boxShadow = "'0' '0' '0' '1px' '#ffffff' 'inset'"
 
 const spacefooter = document.getElementsByClassName('row')[1]

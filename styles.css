@@ -15,6 +15,10 @@ body {
   box-shadow: 0 0 0 0px #6211c0 inset;
 }
 
+.product-tabs__content {
+  border: 0px solid #ffffff;
+}
+
 .topbar {
   background-color: #ffffff;
   color: #6211c0;

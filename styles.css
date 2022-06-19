@@ -23,6 +23,16 @@ body {
   border-bottom-color: #ffffff; 
 }
 
+.products-list[data-layout="list"] .product-card .product-card__actions {
+  border-left: 1px solid #6211c0;
+}
+
+.btn-secondary, .btn-secondary.disabled, .btn-secondary:disabled {
+    border-color: #6211c0;
+    background: #6211c0;
+    color: #ffffff;
+}
+
 .topbar {
   background-color: #ffffff;
   color: #6211c0;

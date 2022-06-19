@@ -4,7 +4,7 @@ body {
 }
 
 .product-card::before {
-  box-shadow: 0 0 0 1px #6211c0 inset;
+  box-shadow: 0 0 0 0px #6211c0 inset;
 }
 
 .product-card:hover::before {

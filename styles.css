@@ -31,6 +31,10 @@ body {
   color: #6211c0;
 }
 
+.product-card__prices {
+  color: #6211c0;
+}
+
 .btn-secondary, .btn-secondary.disabled, .btn-secondary:disabled {
     border-color: #6211c0;
     background: #6211c0;

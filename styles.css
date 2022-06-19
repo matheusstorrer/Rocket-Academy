@@ -19,6 +19,10 @@ body {
   border: 0px solid #ffffff;
 }
 
+.product-tabs__item:hover {
+  border-bottom-color: #ffffff; 
+}
+
 .topbar {
   background-color: #ffffff;
   color: #6211c0;

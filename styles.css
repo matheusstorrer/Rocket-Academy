@@ -7,6 +7,10 @@ body {
   box-shadow: 0 0 0 0px #6211c0 inset;
 }
 
+.product__prices {
+  color: #6211c0;
+}
+
 .product-card:hover::before {
   box-shadow: 0 0 0 1px #6211c0 inset;
 }

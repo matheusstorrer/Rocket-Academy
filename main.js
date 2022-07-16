@@ -15,7 +15,7 @@ vertodos.innerText = 'Ver Todos'
 // topbarPortal.href = 'https://www.cursoo.com.br/login/1377'
 
 const endereco = document.getElementsByClassName('footer-contacts__contacts')[0].firstElementChild
-endereco.innerHTML = '<i class="footer-contacts__icon fas fa-globe-americas"></i> Rua Guilherme Farel, 650 - Londrina / PR'
+endereco.innerHTML = '<i class="footer-contacts__icon fas fa-globe-americas"></i> Rua Manoel Guimarães Teixeira, 706 - Paraná'
 
 const removemapasite = document.getElementsByClassName('site-footer__widgets')[0].children[0].children[1]
 removemapasite.remove()

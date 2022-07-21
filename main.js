@@ -17,11 +17,11 @@ vertodos.innerText = 'Ver Todos'
 const endereco = document.getElementsByClassName('footer-contacts__contacts')[0].firstElementChild
 endereco.remove()
 
-// const telefone = document.getElementsByClassName('row')[1].firstElementChild
-// telefone.remove()
+const telefone = document.getElementsByClassName('site-footer__widgets')[0].children[0].children[0]
+telefone.remove()
 
-const removemapasite = document.getElementsByClassName('site-footer__widgets')[0].children[0].children[1]
-removemapasite.remove()
+// const removemapasite = document.getElementsByClassName('site-footer__widgets')[0].children[0].children[1]
+// removemapasite.remove()
 
 const mercadopago = document.getElementsByClassName('mp')[0]
 mercadopago.src = 'https://matheusstorrer.github.io/Rocket-Academy/12xML.jpg'

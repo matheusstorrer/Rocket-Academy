@@ -134,3 +134,7 @@ child4.insertBefore(cursos4, child4.firstChild)
 // ITEM 5
 
 // ------------------------------------------------------- //
+
+const container = document.getElementsByClassName('container')[5]
+
+container.setAttribute("style""width: 90%")

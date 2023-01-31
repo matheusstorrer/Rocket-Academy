@@ -135,4 +135,9 @@ child4.insertBefore(cursos4, child4.firstChild)
 
 // ------------------------------------------------------- //
 
+const icon = document.createElement("img")
+icon.setAttribute("href","https://github.com/matheusstorrer/Rocket-Academy/blob/main/Rocket_FAVICON.png")
 
+const mobilelogo = document.getElementsByClassName('mobile-header__logo')[0]
+
+mobilelogo.insertBefore(icon, mobilelogo.firstChild)

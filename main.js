@@ -13,7 +13,7 @@ vertodos.innerText = 'Ver Todos'
 const topbarPortal = document.getElementsByClassName('topbar-link')[0]
 topbarPortal.innerHTML = '<b>Portal do Aluno</b>'
 topbarPortal.href = 'https://www.cursoo.com.br/login/1377'
-topbarPortal.setAttribute = ("target","_blank")
+topbarPortal.setAttribute("target","_blank")
 
 const menumobile = document.getElementsByClassName('mobile-links__item')[0]
 menumobile.remove()

@@ -89,7 +89,9 @@ link2.innerText = "Desenvolvimento Profissional"
 cursos2.appendChild(div2)
 div2.appendChild(link2)
 
-document.getElementsByClassName("mobile-links")[1].appendChild(cursos2)
+document.getElementsByClassName("mobile-links")[1]
+const child2 = document.getElementsByClassName("mobile-links")[1]
+child2.insertBefore(cursos2, child2.firstChild)
 
 //ITEM 3
 // ------------------------------------------------------- //

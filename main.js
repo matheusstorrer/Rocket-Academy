@@ -147,3 +147,24 @@ mobilelogo.insertBefore(icon, mobilelogo.firstChild)
 const vertodos1 = document.getElementsByClassName('menu__item-link')[2]
 vertodos1.innerText = 'Engenharia e Arquitetura'
 vertodos1.setAttribute("href","https://rocketacademyschool.com.br/categoria/engenharia-e-arquitetura")
+
+const vertodos2 = document.getElementsByClassName('menu__item-link')[3]
+vertodos2.innerText = 'Informática para Concursos'
+vertodos2.setAttribute("href","https://rocketacademyschool.com.br/categoria/informatica-para-concursos")
+
+const vertodos3 = document.getElementsByClassName('menu__item-link')[4]
+vertodos3.innerText = 'Fotografia'
+vertodos3.setAttribute("href","https://rocketacademyschool.com.br/categoria/fotografia")
+
+const vertodos4 = document.getElementsByClassName('menu__item-link')[5]
+vertodos4.innerText = 'Programação WEB'
+vertodos4.setAttribute("href","https://rocketacademyschool.com.br/categoria/programacao-web")
+
+const vertodos5 = document.getElementsByClassName('menu__item-link')[6]
+vertodos5.innerText = 'Youtuber'
+vertodos5.setAttribute("href","https://rocketacademyschool.com.br/categoria/youtuber")
+
+const vertodos6 = document.getElementsByClassName('menu__item-link')[6]
+vertodos6.innerText = 'Desenvolvimento Profissional'
+vertodos6.setAttribute("href","https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional")
+

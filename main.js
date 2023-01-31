@@ -94,4 +94,23 @@ const child2 = document.getElementsByClassName("mobile-links")[1]
 child2.insertBefore(cursos2, child2.firstChild)
 
 //ITEM 3
+const cursos3 = document.createElement("li")
+cursos3.setAttribute("class","mobile-links__item")
+
+const div3 = document.createElement("div")
+div3.setAttribute("class","mobile-links__item-title")
+
+const link3 = document.createElement("A")
+link3.setAttribute("href","https://rocketacademyschool.com.br/categoria/adobe")
+link3.setAttribute("class","mobile-links__item-link keychainify-checked")
+link3.innerText = "Programas ADOBE"
+
+cursos3.appendChild(div3)
+div3.appendChild(link3)
+
+document.getElementsByClassName("mobile-links")[1]
+const child3 = document.getElementsByClassName("mobile-links")[1]
+child3.insertBefore(cursos3, child3.firstChild)
+
+// ITEM 4
 // ------------------------------------------------------- //

@@ -53,6 +53,7 @@ icons3.style.backgroundColor = '#ffffff'
 const icons4 = document.getElementsByClassName('block-features__item')[3]
 icons4.style.backgroundColor = '#ffffff'
 
+// ITENS DO MENU MOBILE //
 const cursos1 = document.createElement("li")
 cursos1.setAttribute("class","mobile-links__item")
 
@@ -60,11 +61,31 @@ const div1 = document.createElement("div")
 div1.setAttribute("class","mobile-links__item-title")
 
 const link1 = document.createElement("A")
-link1.setAttribute("href","google.com.br")
+link1.setAttribute("href","https://rocketacademyschool.com.br/categoria/microsoft-office")
 link1.setAttribute("class","mobile-links__item-link keychainify-checked")
-link1.innerText = "Especialista em EXCEL"
+link1.innerText = "Microsoft Office 365"
 
 cursos1.appendChild(div1)
 div1.appendChild(link1)
 
 document.getElementsByClassName("mobile-links")[1].appendChild(cursos1)
+
+// ITEM 2 
+const cursos2 = document.createElement("li")
+cursos2.setAttribute("class","mobile-links__item")
+
+const div2 = document.createElement("div")
+div2.setAttribute("class","mobile-links__item-title")
+
+const link2 = document.createElement("A")
+link2.setAttribute("href","https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional")
+link2.setAttribute("class","mobile-links__item-link keychainify-checked")
+link2.innerText = "Desenvolvimento Profissional"
+
+cursos2.appendChild(div2)
+div2.appendChild(link2)
+
+document.getElementsByClassName("mobile-links")[1].appendChild(cursos2)
+
+//ITEM 3
+// ------------------------------------------------------- //

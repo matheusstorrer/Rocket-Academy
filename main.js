@@ -142,3 +142,8 @@ icon.setAttribute("src","https://raw.githubusercontent.com/matheusstorrer/Rocket
 const mobilelogo = document.getElementsByClassName('mobile-header__logo')[0]
 
 mobilelogo.insertBefore(icon, mobilelogo.firstChild)
+
+
+const vertodos1 = document.getElementsByClassName('menu__item-link')[2]
+vertodos1.innerText = 'Engenharia e Arquitetura'
+vertodos1.setAttribute("href","https://rocketacademyschool.com.br/categoria/engenharia-e-arquitetura")

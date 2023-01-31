@@ -71,7 +71,8 @@ link1.innerText = "Microsoft Office 365"
 cursos1.appendChild(div1)
 div1.appendChild(link1)
 
-document.getElementsByClassName("mobile-links")[1].appendChild(cursos1)
+const child1 = document.getElementsByClassName("mobile-links")[1]
+child1.insertBefore(cursos1, child1.firstChild)
 
 // ITEM 2 
 const cursos2 = document.createElement("li")

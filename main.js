@@ -14,6 +14,9 @@ vertodos.innerText = 'Ver Todos'
 // topbarPortal.innerText = 'Portal do Aluno'
 // topbarPortal.href = 'https://www.cursoo.com.br/login/1377'
 
+const menumobile = document.getElementsByClassName('mobile-links__item')[0]
+menumobile.remove()
+
 const endereco = document.getElementsByClassName('footer-contacts__contacts')[0].firstElementChild
 endereco.remove()
 

@@ -11,7 +11,7 @@ const vertodos = document.getElementsByClassName('menu__item-link')[7]
 vertodos.innerText = 'Ver Todos'
 
 const topbarPortal = document.getElementsByClassName('topbar-link')[0]
-topbarPortal.innerText = '<strong>Portal do Aluno</strong>'
+topbarPortal.innerHTML = '<b>Portal do Aluno</b>'
 topbarPortal.href = 'https://www.cursoo.com.br/login/1377'
 
 const menumobile = document.getElementsByClassName('mobile-links__item')[0]

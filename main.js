@@ -17,11 +17,11 @@ vertodos.innerText = 'Ver Todos'
 const menumobile = document.getElementsByClassName('mobile-links__item')[0]
 menumobile.remove()
 
-const endereco = document.getElementsByClassName('footer-contacts__contacts')[0].firstElementChild
-endereco.remove()
+// const endereco = document.getElementsByClassName('footer-contacts__contacts')[0].firstElementChild
+// endereco.remove()
 
-const telefone = document.getElementsByClassName('site-footer__widgets')[0].children[0].children[0]
-telefone.remove()
+// const telefone = document.getElementsByClassName('site-footer__widgets')[0].children[0].children[0]
+// telefone.remove()
 
 const removemapasite = document.getElementsByClassName('site-footer__widgets')[0].children[0].children[1]
 removemapasite.remove()

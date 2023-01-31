@@ -52,3 +52,13 @@ icons3.style.backgroundColor = '#ffffff'
 
 const icons4 = document.getElementsByClassName('block-features__item')[3]
 icons4.style.backgroundColor = '#ffffff'
+
+const cursos1 = document.createElement("li")
+
+const link1 = document.createElement("A")
+link1.setAttribute("href""google.com.br")
+link1.innerText = "Especialista em EXCEL"
+
+cursos1.appendChild(link1)
+
+document.getElementsByClassName("mobile-links").appendChild(cursos1)

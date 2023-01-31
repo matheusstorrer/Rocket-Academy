@@ -113,4 +113,24 @@ const child3 = document.getElementsByClassName("mobile-links")[1]
 child3.insertBefore(cursos3, child3.firstChild)
 
 // ITEM 4
+const cursos4 = document.createElement("li")
+cursos4.setAttribute("class","mobile-links__item")
+
+const div4 = document.createElement("div")
+div4.setAttribute("class","mobile-links__item-title")
+
+const link4 = document.createElement("A")
+link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link4.setAttribute("class","mobile-links__item-link keychainify-checked")
+link4.innerText = "AutoCAD"
+
+cursos4.appendChild(div4)
+div4.appendChild(link4)
+
+document.getElementsByClassName("mobile-links")[1]
+const child4 = document.getElementsByClassName("mobile-links")[1]
+child4.insertBefore(cursos4, child4.firstChild)
+
+// ITEM 5
+
 // ------------------------------------------------------- //

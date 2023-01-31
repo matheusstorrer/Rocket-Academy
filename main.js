@@ -24,8 +24,8 @@ menumobile.remove()
 // const telefone = document.getElementsByClassName('site-footer__widgets')[0].children[0].children[0]
 // telefone.remove()
 
-// const removemapasite = document.getElementsByClassName('site-footer__widgets')[0].children[0].children[0]
-// removemapasite.remove()
+const removemapasite = document.getElementsByClassName('footer-links')[0]
+removemapasite.remove()
 
 const mercadopago = document.getElementsByClassName('mp')[0]
 mercadopago.src = 'https://matheusstorrer.github.io/Rocket-Academy/12xML.jpg'

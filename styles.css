@@ -70,6 +70,7 @@ body {
 
 @media (max-width: 767px) {
   .products-view__list {
-    margin-bottom: 100px
+    margin-top: 64px;
+    margin-bottom: 64px;
   }
 }  

@@ -1,5 +1,5 @@
 document.getElementsByClassName('nav-links__item-body')[3].innerText =
-  'Todos os Cursos ↓'
+  'Todos as Categorias  ↓'
 
 // const contato = document.getElementsByClassName('topbar__item')[1]
 // document.getElementsByClassName('topbar__row')[0].removeChild(contato)

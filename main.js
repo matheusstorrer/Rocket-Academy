@@ -103,7 +103,7 @@ div3.setAttribute("class","mobile-links__item-title")
 const link3 = document.createElement("A")
 link3.setAttribute("href","https://rocketacademyschool.com.br/categoria/adobe")
 link3.setAttribute("class","mobile-links__item-link keychainify-checked")
-link3.innerText = "Programas ADOBE"
+link3.innerText = "Programas Adobe"
 
 cursos3.appendChild(div3)
 div3.appendChild(link3)

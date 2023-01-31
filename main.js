@@ -10,9 +10,9 @@ document.getElementsByClassName('topbar__row')[0].removeChild(cadastro)
 const vertodos = document.getElementsByClassName('menu__item-link')[7]
 vertodos.innerText = 'Ver Todos'
 
-// const topbarPortal = document.getElementsByClassName('topbar-link')[0]
-// topbarPortal.innerText = 'Portal do Aluno'
-// topbarPortal.href = 'https://www.cursoo.com.br/login/1377'
+const topbarPortal = document.getElementsByClassName('topbar-link')[0]
+topbarPortal.innerText = 'Portal do Aluno'
+topbarPortal.href = 'https://www.cursoo.com.br/login/1377'
 
 const menumobile = document.getElementsByClassName('mobile-links__item')[0]
 menumobile.remove()

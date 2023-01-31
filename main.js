@@ -56,7 +56,7 @@ icons4.style.backgroundColor = '#ffffff'
 const cursos1 = document.createElement("li")
 
 const link1 = document.createElement("A")
-link1.setAttribute("href""google.com.br")
+link1.setAttribute("href","google.com.br")
 link1.innerText = "Especialista em EXCEL"
 
 cursos1.appendChild(link1)

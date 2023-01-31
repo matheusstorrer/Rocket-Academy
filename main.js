@@ -35,23 +35,26 @@ footer.style.borderTop = '0px'
 const spacefooter = document.getElementsByClassName('site-footer__widgets')[0].children[0]
 spacefooter.style.justifyContent = 'space-between'
 
-const divider = document.getElementsByClassName('block-header__divider')[0]
-divider.style.backgroundColor = '#6211c0'
+if (window.location.href === "https://rocketacademyschool.com.br") {
 
-const divider2 = document.getElementsByClassName('block-header__divider')[1]
-divider2.style.backgroundColor = '#6211c0'
+  const divider = document.getElementsByClassName('block-header__divider')[0]
+  divider.style.backgroundColor = '#6211c0'
 
-const icons = document.getElementsByClassName('block-features__item')[0]
-icons.style.backgroundColor = '#ffffff'
+  const divider2 = document.getElementsByClassName('block-header__divider')[1]
+  divider2.style.backgroundColor = '#6211c0'
 
-const icons2 = document.getElementsByClassName('block-features__item')[1]
-icons2.style.backgroundColor = '#ffffff'
+  const icons = document.getElementsByClassName('block-features__item')[0]
+  icons.style.backgroundColor = '#ffffff'
 
-const icons3 = document.getElementsByClassName('block-features__item')[2]
-icons3.style.backgroundColor = '#ffffff'
+  const icons2 = document.getElementsByClassName('block-features__item')[1]
+  icons2.style.backgroundColor = '#ffffff'
 
-const icons4 = document.getElementsByClassName('block-features__item')[3]
-icons4.style.backgroundColor = '#ffffff'
+  const icons3 = document.getElementsByClassName('block-features__item')[2]
+  icons3.style.backgroundColor = '#ffffff'
+
+  const icons4 = document.getElementsByClassName('block-features__item')[3]
+  icons4.style.backgroundColor = '#ffffff'
+}  
 
 // ITENS DO MENU MOBILE //
 const cursos1 = document.createElement("li")

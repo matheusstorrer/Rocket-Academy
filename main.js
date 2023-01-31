@@ -38,7 +38,7 @@ spacefooter.style.justifyContent = 'space-between'
 if (window.location.href === "https://rocketacademyschool.com.br") {
 
   const divider = document.getElementsByClassName('block-header__divider')[0]
-  divider.style.backgroundColor = '#6211c0'
+  divider.style.background = '#6211c0'
 
   const divider2 = document.getElementsByClassName('block-header__divider')[1]
   divider2.style.backgroundColor = '#6211c0'

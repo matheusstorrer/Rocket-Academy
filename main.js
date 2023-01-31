@@ -164,7 +164,7 @@ const vertodos5 = document.getElementsByClassName('menu__item-link')[6]
 vertodos5.innerText = 'Youtuber'
 vertodos5.setAttribute("href","https://rocketacademyschool.com.br/categoria/youtuber")
 
-const vertodos6 = document.getElementsByClassName('menu__item-link')[6]
+const vertodos6 = document.getElementsByClassName('menu__item-link')[7]
 vertodos6.innerText = 'Desenvolvimento Profissional'
 vertodos6.setAttribute("href","https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional")
 

@@ -16,7 +16,7 @@ body {
 }
 
 .product-card:hover::before {
-  box-shadow: 0 0 0 1px #6211c0 inset;
+  box-shadow: none;
 }
 
 .product-gallery__featured {

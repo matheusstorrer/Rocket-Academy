@@ -56,11 +56,15 @@ icons4.style.backgroundColor = '#ffffff'
 const cursos1 = document.createElement("li")
 cursos1.setAttribute("class","mobile-links__item")
 
+const div1 = document.createElement("div")
+div1.setAttribute("class","mobile-links__item-title")
+
 const link1 = document.createElement("A")
 link1.setAttribute("href","google.com.br")
 link1.setAttribute("class","mobile-links__item-link keychainify-checked")
 link1.innerText = "Especialista em EXCEL"
 
-cursos1.appendChild(link1)
+cursos1.appendChild(div1)
+div1.appendChild(link1)
 
 document.getElementsByClassName("mobile-links")[1].appendChild(cursos1)

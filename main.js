@@ -54,6 +54,7 @@ const icons4 = document.getElementsByClassName('block-features__item')[3]
 icons4.style.backgroundColor = '#ffffff'
 
 const cursos1 = document.createElement("li")
+cursos1.setAttribute("class","mobile-links__item")
 
 const link1 = document.createElement("A")
 link1.setAttribute("href","google.com.br")
@@ -62,4 +63,4 @@ link1.innerText = "Especialista em EXCEL"
 
 cursos1.appendChild(link1)
 
-document.getElementsByClassName("mobile-links__item-sub-links")[0].appendChild(cursos1)
+document.getElementsByClassName("mobile-links")[1].appendChild(cursos1)

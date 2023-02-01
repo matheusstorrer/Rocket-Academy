@@ -292,8 +292,8 @@ vertodos6.setAttribute("href","https://rocketacademyschool.com.br/categoria/dese
 const portal = document.createElement("li")
 
 const linkportal = document.createElement("A")
-link1.setAttribute("href","www.google.com.br")
-link1.innerText = "Portal do Aluno"
+linkportal.setAttribute("href","www.google.com.br")
+linkportal.innerText = "Portal do Aluno"
 
 const portalmobile = document.getElementsByClassName('mobile-links')
 

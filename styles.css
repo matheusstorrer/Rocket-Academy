@@ -57,10 +57,6 @@ body {
   border-left: none;
 }
 
-[dir=ltr] .products-list[data-layout="list"] .product-card .product-card__actions {
-  border-left: 1px solid #6211c0;
-}
-
 .products-list[data-layout="list"] .product-card .product-card__availability {
   color: #6211c0;
 }

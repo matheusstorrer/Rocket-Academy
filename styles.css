@@ -32,7 +32,7 @@ body {
 }
 
 .product-tabs__item:hover {
-  border-bottom-color: #ffffff; 
+  border-bottom-color: #6211c0; 
 }
 
 [dir=ltr] .products-list[data-layout="list"] .product-card .product-card__actions {

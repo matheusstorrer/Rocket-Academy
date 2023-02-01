@@ -135,16 +135,136 @@ child4.insertBefore(cursos4, child4.firstChild)
 
 // ITEM 5
 
-// ------------------------------------------------------- //
+const cursos4 = document.createElement("li")
+cursos4.setAttribute("class","mobile-links__item")
+
+const div4 = document.createElement("div")
+div4.setAttribute("class","mobile-links__item-title")
+
+const link4 = document.createElement("A")
+link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link4.setAttribute("class","mobile-links__item-link keychainify-checked")
+link4.innerText = "AutoCAD"
+
+cursos4.appendChild(div4)
+div4.appendChild(link4)
+
+document.getElementsByClassName("mobile-links")[1]
+const child4 = document.getElementsByClassName("mobile-links")[1]
+child4.insertBefore(cursos4, child4.firstChild)
+
+// ITEM 6
+
+const cursos4 = document.createElement("li")
+cursos4.setAttribute("class","mobile-links__item")
+
+const div4 = document.createElement("div")
+div4.setAttribute("class","mobile-links__item-title")
+
+const link4 = document.createElement("A")
+link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link4.setAttribute("class","mobile-links__item-link keychainify-checked")
+link4.innerText = "AutoCAD"
+
+cursos4.appendChild(div4)
+div4.appendChild(link4)
+
+document.getElementsByClassName("mobile-links")[1]
+const child4 = document.getElementsByClassName("mobile-links")[1]
+child4.insertBefore(cursos4, child4.firstChild)
+
+// ITEM 7
+
+const cursos4 = document.createElement("li")
+cursos4.setAttribute("class","mobile-links__item")
+
+const div4 = document.createElement("div")
+div4.setAttribute("class","mobile-links__item-title")
+
+const link4 = document.createElement("A")
+link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link4.setAttribute("class","mobile-links__item-link keychainify-checked")
+link4.innerText = "AutoCAD"
+
+cursos4.appendChild(div4)
+div4.appendChild(link4)
+
+document.getElementsByClassName("mobile-links")[1]
+const child4 = document.getElementsByClassName("mobile-links")[1]
+child4.insertBefore(cursos4, child4.firstChild)
+
+// ITEM 8
+
+const cursos4 = document.createElement("li")
+cursos4.setAttribute("class","mobile-links__item")
+
+const div4 = document.createElement("div")
+div4.setAttribute("class","mobile-links__item-title")
+
+const link4 = document.createElement("A")
+link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link4.setAttribute("class","mobile-links__item-link keychainify-checked")
+link4.innerText = "AutoCAD"
+
+cursos4.appendChild(div4)
+div4.appendChild(link4)
+
+document.getElementsByClassName("mobile-links")[1]
+const child4 = document.getElementsByClassName("mobile-links")[1]
+child4.insertBefore(cursos4, child4.firstChild)
+
+// ITEM 9
+
+const cursos4 = document.createElement("li")
+cursos4.setAttribute("class","mobile-links__item")
+
+const div4 = document.createElement("div")
+div4.setAttribute("class","mobile-links__item-title")
+
+const link4 = document.createElement("A")
+link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link4.setAttribute("class","mobile-links__item-link keychainify-checked")
+link4.innerText = "AutoCAD"
+
+cursos4.appendChild(div4)
+div4.appendChild(link4)
+
+document.getElementsByClassName("mobile-links")[1]
+const child4 = document.getElementsByClassName("mobile-links")[1]
+child4.insertBefore(cursos4, child4.firstChild)
+
+// ITEM 10
+
+const cursos10 = document.createElement("li")
+cursos10.setAttribute("class","mobile-links__item")
+
+const div10 = document.createElement("div")
+div10.setAttribute("class","mobile-links__item-title")
+
+const link10 = document.createElement("A")
+link10.setAttribute("href","https://rocketacademyschool.com.br/categoria/desenvolvimento-pessoal")
+link10.setAttribute("class","mobile-links__item-link keychainify-checked")
+link10.innerText = "Desenvolvimento Pessoal"
+
+cursos10.appendChild(div10)
+div10.appendChild(link10)
+
+document.getElementsByClassName("mobile-links")[1]
+const child10 = document.getElementsByClassName("mobile-links")[1]
+child10.insertBefore(cursos10, child10.firstChild)
+
+// ------------------------------------------------------------------------------//
 
 const icon = document.createElement("img")
 icon.setAttribute("src","https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Rocket_LOGO_Mobile.png")
+icon.setAttribute("style","margin-right: 10px")
 
 const mobilelogo = document.getElementsByClassName('mobile-header__logo')[0]
 
 mobilelogo.insertBefore(icon, mobilelogo.firstChild)
 
 
+// ------------------------------------------------------- //
 const vertodos1 = document.getElementsByClassName('menu__item-link')[2]
 vertodos1.innerText = 'Engenharia e Arquitetura'
 vertodos1.setAttribute("href","https://rocketacademyschool.com.br/categoria/engenharia-e-arquitetura")

@@ -59,22 +59,22 @@ if (window.location.href === "https://rocketacademyschool.com.br") {
 }  
 
 // ITENS DO MENU MOBILE //
-const cursos1 = document.createElement("li")
-cursos1.setAttribute("class","mobile-links__item")
+// const cursos1 = document.createElement("li")
+// cursos1.setAttribute("class","mobile-links__item")
 
-const div1 = document.createElement("div")
-div1.setAttribute("class","mobile-links__item-title")
+// const div1 = document.createElement("div")
+// div1.setAttribute("class","mobile-links__item-title")
 
-const link1 = document.createElement("A")
-link1.setAttribute("href","https://rocketacademyschool.com.br/categoria/microsoft-office")
-link1.setAttribute("class","mobile-links__item-link keychainify-checked")
-link1.innerText = "Microsoft Office 365"
+// const link1 = document.createElement("A")
+// link1.setAttribute("href","https://rocketacademyschool.com.br/categoria/microsoft-office")
+// link1.setAttribute("class","mobile-links__item-link keychainify-checked")
+// link1.innerText = "Microsoft Office 365"
 
-cursos1.appendChild(div1)
-div1.appendChild(link1)
+// cursos1.appendChild(div1)
+// div1.appendChild(link1)
 
-const child1 = document.getElementsByClassName("mobile-links")[1]
-child1.insertBefore(cursos1, child1.firstChild)
+// const child1 = document.getElementsByClassName("mobile-links")[1]
+// child1.insertBefore(cursos1, child1.firstChild)
 
 // ITEM 2 
 const cursos2 = document.createElement("li")

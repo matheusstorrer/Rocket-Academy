@@ -82,6 +82,11 @@ body {
   font-size: 14px;
 }
 
+.totop__button {
+  border: 2px solid;
+  border-color: white;
+}
+
 .btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
     border-color: #6211c0c9;
     background: #6211c0c9;

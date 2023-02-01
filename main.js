@@ -289,3 +289,14 @@ const vertodos6 = document.getElementsByClassName('menu__item-link')[7]
 vertodos6.innerText = 'Desenvolvimento Profissional'
 vertodos6.setAttribute("href","https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional")
 
+const portal = document.createElement("li")
+
+const linkportal = document.createElement("A")
+link1.setAttribute("href","www.google.com.br")
+link1.innerText = "Portal do Aluno"
+
+const portalmobile = document.getElementsByClassName('mobile-links')
+
+portal.appendChild(linkportal)
+portalmobile.appendChild(portal)
+

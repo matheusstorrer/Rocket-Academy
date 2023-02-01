@@ -84,9 +84,9 @@ const div2 = document.createElement("div")
 div2.setAttribute("class","mobile-links__item-title")
 
 const link2 = document.createElement("A")
-link2.setAttribute("href","https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional")
+link2.setAttribute("href","https://rocketacademyschool.com.br/categoria/Youtuber")
 link2.setAttribute("class","mobile-links__item-link keychainify-checked")
-link2.innerText = "Desenvolvimento Profissional"
+link2.innerText = "Youtuber"
 
 cursos2.appendChild(div2)
 div2.appendChild(link2)
@@ -103,9 +103,9 @@ const div3 = document.createElement("div")
 div3.setAttribute("class","mobile-links__item-title")
 
 const link3 = document.createElement("A")
-link3.setAttribute("href","https://rocketacademyschool.com.br/categoria/adobe")
+link3.setAttribute("href","https://rocketacademyschool.com.br/categoria/programacao-web")
 link3.setAttribute("class","mobile-links__item-link keychainify-checked")
-link3.innerText = "Programas Adobe"
+link3.innerText = "Programação WEB"
 
 cursos3.appendChild(div3)
 div3.appendChild(link3)
@@ -122,9 +122,9 @@ const div4 = document.createElement("div")
 div4.setAttribute("class","mobile-links__item-title")
 
 const link4 = document.createElement("A")
-link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/marketing-e-vendas")
 link4.setAttribute("class","mobile-links__item-link keychainify-checked")
-link4.innerText = "AutoCAD"
+link4.innerText = "Marketing e Vendas"
 
 cursos4.appendChild(div4)
 div4.appendChild(link4)
@@ -142,9 +142,9 @@ const div5 = document.createElement("div")
 div5.setAttribute("class","mobile-links__item-title")
 
 const link5 = document.createElement("A")
-link5.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link5.setAttribute("href","https://rocketacademyschool.com.br/categoria/informatica-para-concursos")
 link5.setAttribute("class","mobile-links__item-link keychainify-checked")
-link5.innerText = "AutoCAD"
+link5.innerText = "Informática para Concursos"
 
 cursos5.appendChild(div5)
 div5.appendChild(link5)

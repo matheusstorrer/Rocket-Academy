@@ -29,6 +29,10 @@ body {
   color: #6211c0;
 }
 
+.fab::before {
+  color: white;
+}
+
 .block-header__divider {
   background: #6211c0
 }

@@ -295,7 +295,7 @@ const linkportal = document.createElement("A")
 linkportal.setAttribute("href","www.google.com.br")
 linkportal.innerText = "Portal do Aluno"
 
-const portalmobile = document.getElementsByClassName('mobile-links')
+const portalmobile = document.getElementsByClassName('mobile-links')[0]
 
 portal.appendChild(linkportal)
 portalmobile.appendChild(portal)

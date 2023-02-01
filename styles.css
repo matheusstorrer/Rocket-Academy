@@ -30,7 +30,7 @@ body {
 }
 
 .product-card::before {
-  box-shadow: 0 0 0 0px #6211c0 inset;
+  box-shadow: 0 3px 5px 1px #6211c0;
 }
 
 .product__prices {

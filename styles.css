@@ -89,4 +89,11 @@ body {
   .products-list[data-layout="list"] .product-card .product-card__image {
     width: 357px;
   }
+  
+  .footer-newsletter {
+    text-align: left;
+  }
+  .footer-contacts {
+    text-align: left;
+  }
 }  

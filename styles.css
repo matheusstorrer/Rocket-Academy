@@ -3,6 +3,16 @@ body {
   color: #6211c0;
 }
 
+.site-footer {
+  color: white;
+  margin-top: 32px;
+  background: #6211c0;
+}
+
+.footer-contacts__icon::before {
+  color: white
+}
+
 ::after, ::before {
   color: #6211c0;
 }

@@ -9,6 +9,10 @@ body {
   background: #6211c0;
 }
 
+.site-footer__widgets {
+    padding: 32px 0px;
+}
+
 .footer-contacts__icon::before {
   color: white
 }

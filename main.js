@@ -162,9 +162,9 @@ const div6 = document.createElement("div")
 div6.setAttribute("class","mobile-links__item-title")
 
 const link6 = document.createElement("A")
-link6.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link6.setAttribute("href","https://rocketacademyschool.com.br/categoria/fotografia")
 link6.setAttribute("class","mobile-links__item-link keychainify-checked")
-link6.innerText = "AutoCAD"
+link6.innerText = "Fotografia"
 
 cursos6.appendChild(div6)
 div6.appendChild(link6)
@@ -182,9 +182,9 @@ const div7 = document.createElement("div")
 div4.setAttribute("class","mobile-links__item-title")
 
 const link7 = document.createElement("A")
-link7.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link7.setAttribute("href","https://rocketacademyschool.com.br/categoria/especialista-em-excel")
 link7.setAttribute("class","mobile-links__item-link keychainify-checked")
-link7.innerText = "AutoCAD"
+link7.innerText = "Especialista em Excel"
 
 cursos7.appendChild(div7)
 div7.appendChild(link7)
@@ -202,9 +202,9 @@ const div8 = document.createElement("div")
 div8.setAttribute("class","mobile-links__item-title")
 
 const link8 = document.createElement("A")
-link8.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link8.setAttribute("href","https://rocketacademyschool.com.br/categoria/engenharia-e-arquitetura")
 link8.setAttribute("class","mobile-links__item-link keychainify-checked")
-link8.innerText = "AutoCAD"
+link8.innerText = "Engenharia e Arquitetura"
 
 cursos8.appendChild(div8)
 div8.appendChild(link8)
@@ -222,9 +222,9 @@ const div9 = document.createElement("div")
 div9.setAttribute("class","mobile-links__item-title")
 
 const link9 = document.createElement("A")
-link9.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link9.setAttribute("href","https://rocketacademyschool.com.br/categoria/designer-grafico")
 link9.setAttribute("class","mobile-links__item-link keychainify-checked")
-link9.innerText = "AutoCAD"
+link9.innerText = "Designer Gráfico"
 
 cursos9.appendChild(div9)
 div9.appendChild(link9)

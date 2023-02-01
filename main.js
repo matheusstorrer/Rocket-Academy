@@ -291,12 +291,16 @@ vertodos6.setAttribute("href","https://rocketacademyschool.com.br/categoria/dese
 
 const portal = document.createElement("li")
 
+const portaldiv = document.createElemente("div")
+portaldiv.setAttribute("class","mobile-links__item-title")
+
 const linkportal = document.createElement("A")
-linkportal.setAttribute("href","www.google.com.br")
+linkportal.setAttribute("href","https://www.cursoo.com.br/login/1377")
 linkportal.innerText = "Portal do Aluno"
 
 const portalmobile = document.getElementsByClassName('mobile-links')[0]
 
-portal.appendChild(linkportal)
+portal.appendChild(portaldiv)
+portaldiv.appendChild(linkportal)
 portalmobile.appendChild(portal)
 

@@ -298,6 +298,7 @@ portaldiv.setAttribute("class","mobile-links__item-title")
 const linkportal = document.createElement("A")
 linkportal.setAttribute("href","https://www.cursoo.com.br/login/1377")
 linkportal.setAttribute("class","mobile-links__item-link")
+linkportal.setAttribute("style","font-weight: bold")
 linkportal.innerText = "Portal do Aluno"
 
 const portalmobile = document.getElementsByClassName('mobile-links')[0]

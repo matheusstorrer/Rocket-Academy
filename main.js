@@ -242,9 +242,9 @@ const div10 = document.createElement("div")
 div10.setAttribute("class","mobile-links__item-title")
 
 const link10 = document.createElement("A")
-link10.setAttribute("href","https://rocketacademyschool.com.br/categoria/desenvolvimento-pessoal")
+link10.setAttribute("href","https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional")
 link10.setAttribute("class","mobile-links__item-link keychainify-checked")
-link10.innerText = "Desenvolvimento Pessoal"
+link10.innerText = "Desenvolvimento Profissional"
 
 cursos10.appendChild(div10)
 div10.appendChild(link10)

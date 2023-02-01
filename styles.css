@@ -14,7 +14,11 @@ body {
 }
 
 .footer-contacts__icon::before {
-  color: white
+  color: white;
+}
+
+hr {
+  border-top: 2px solid #f8f9fa;
 }
 
 .products-list[data-layout="list"] .product-card {

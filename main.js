@@ -7,8 +7,8 @@ document.getElementsByClassName('nav-links__item-body')[3].innerText =
 const cadastro = document.getElementsByClassName('topbar__item')[3]
 document.getElementsByClassName('topbar__row')[0].removeChild(cadastro)
 
-const vertodos = document.getElementsByClassName('menu__item-link')[7]
-vertodos.innerText = 'Ver Todos'
+// const vertodos = document.getElementsByClassName('menu__item-link')[7]
+// vertodos.innerText = 'Ver Todos'
 
 const topbarPortal = document.getElementsByClassName('topbar-link')[0]
 topbarPortal.innerHTML = '<b>Portal do Aluno</b>'

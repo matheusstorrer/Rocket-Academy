@@ -21,6 +21,10 @@ body {
   box-shadow: 0 3px 5px 1px #6211c0;
 }
 
+.owl-carousel .owl-stage {
+  padding-top: 2px;
+}
+
 ::after, ::before {
   color: #6211c0;
 }

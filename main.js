@@ -156,7 +156,7 @@ child5.insertBefore(cursos5, child5.firstChild)
 // ITEM 6
 
 const cursos6 = document.createElement("li")
-cursos4.setAttribute("class","mobile-links__item")
+cursos6.setAttribute("class","mobile-links__item")
 
 const div6 = document.createElement("div")
 div6.setAttribute("class","mobile-links__item-title")
@@ -176,10 +176,10 @@ child6.insertBefore(cursos6, child6.firstChild)
 // ITEM 7
 
 const cursos7 = document.createElement("li")
-cursos4.setAttribute("class","mobile-links__item")
+cursos7.setAttribute("class","mobile-links__item")
 
 const div7 = document.createElement("div")
-div4.setAttribute("class","mobile-links__item-title")
+div7.setAttribute("class","mobile-links__item-title")
 
 const link7 = document.createElement("A")
 link7.setAttribute("href","https://rocketacademyschool.com.br/categoria/especialista-em-excel")

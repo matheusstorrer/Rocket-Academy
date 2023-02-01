@@ -3,6 +3,10 @@ body {
   color: #6211c0;
 }
 
+*, ::after, ::before {
+  color: #6211c0;
+}
+
 .block-header__divider {
   background: #6211c0
 }
@@ -60,7 +64,6 @@ body {
     border-color: #6211c0c9;
     background: #6211c0c9;
 }
-    
 
 @media (min-width: 992px) {
  .col-lg-4 {

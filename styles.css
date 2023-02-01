@@ -38,7 +38,7 @@ body {
 }
 
 .product-card:hover::before {
-  box-shadow: none;
+  box-shadow: 0 3px 5px 1px #6211c0;
 }
 
 .product-gallery__featured {

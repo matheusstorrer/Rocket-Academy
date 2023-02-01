@@ -291,7 +291,7 @@ vertodos6.setAttribute("href","https://rocketacademyschool.com.br/categoria/dese
 
 const portal = document.createElement("li")
 
-const portaldiv = document.createElemente("div")
+const portaldiv = document.createElement("div")
 portaldiv.setAttribute("class","mobile-links__item-title")
 
 const linkportal = document.createElement("A")

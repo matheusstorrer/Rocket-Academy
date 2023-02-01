@@ -135,103 +135,103 @@ child4.insertBefore(cursos4, child4.firstChild)
 
 // ITEM 5
 
-const cursos4 = document.createElement("li")
-cursos4.setAttribute("class","mobile-links__item")
+const cursos5 = document.createElement("li")
+cursos5.setAttribute("class","mobile-links__item")
 
-const div4 = document.createElement("div")
-div4.setAttribute("class","mobile-links__item-title")
+const div5 = document.createElement("div")
+div5.setAttribute("class","mobile-links__item-title")
 
-const link4 = document.createElement("A")
-link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
-link4.setAttribute("class","mobile-links__item-link keychainify-checked")
-link4.innerText = "AutoCAD"
+const link5 = document.createElement("A")
+link5.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link5.setAttribute("class","mobile-links__item-link keychainify-checked")
+link5.innerText = "AutoCAD"
 
-cursos4.appendChild(div4)
-div4.appendChild(link4)
+cursos5.appendChild(div5)
+div5.appendChild(link5)
 
 document.getElementsByClassName("mobile-links")[1]
-const child4 = document.getElementsByClassName("mobile-links")[1]
-child4.insertBefore(cursos4, child4.firstChild)
+const child5 = document.getElementsByClassName("mobile-links")[1]
+child5.insertBefore(cursos5, child5.firstChild)
 
 // ITEM 6
 
-const cursos4 = document.createElement("li")
+const cursos6 = document.createElement("li")
 cursos4.setAttribute("class","mobile-links__item")
 
-const div4 = document.createElement("div")
-div4.setAttribute("class","mobile-links__item-title")
+const div6 = document.createElement("div")
+div6.setAttribute("class","mobile-links__item-title")
 
-const link4 = document.createElement("A")
-link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
-link4.setAttribute("class","mobile-links__item-link keychainify-checked")
-link4.innerText = "AutoCAD"
+const link6 = document.createElement("A")
+link6.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link6.setAttribute("class","mobile-links__item-link keychainify-checked")
+link6.innerText = "AutoCAD"
 
-cursos4.appendChild(div4)
-div4.appendChild(link4)
+cursos6.appendChild(div6)
+div6.appendChild(link6)
 
 document.getElementsByClassName("mobile-links")[1]
-const child4 = document.getElementsByClassName("mobile-links")[1]
-child4.insertBefore(cursos4, child4.firstChild)
+const child6 = document.getElementsByClassName("mobile-links")[1]
+child6.insertBefore(cursos6, child6.firstChild)
 
 // ITEM 7
 
-const cursos4 = document.createElement("li")
+const cursos7 = document.createElement("li")
 cursos4.setAttribute("class","mobile-links__item")
 
-const div4 = document.createElement("div")
+const div7 = document.createElement("div")
 div4.setAttribute("class","mobile-links__item-title")
 
-const link4 = document.createElement("A")
-link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
-link4.setAttribute("class","mobile-links__item-link keychainify-checked")
-link4.innerText = "AutoCAD"
+const link7 = document.createElement("A")
+link7.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link7.setAttribute("class","mobile-links__item-link keychainify-checked")
+link7.innerText = "AutoCAD"
 
-cursos4.appendChild(div4)
-div4.appendChild(link4)
+cursos7.appendChild(div7)
+div7.appendChild(link7)
 
 document.getElementsByClassName("mobile-links")[1]
-const child4 = document.getElementsByClassName("mobile-links")[1]
-child4.insertBefore(cursos4, child4.firstChild)
+const child7 = document.getElementsByClassName("mobile-links")[1]
+child7.insertBefore(cursos7, child7.firstChild)
 
 // ITEM 8
 
-const cursos4 = document.createElement("li")
-cursos4.setAttribute("class","mobile-links__item")
+const cursos8 = document.createElement("li")
+cursos8.setAttribute("class","mobile-links__item")
 
-const div4 = document.createElement("div")
-div4.setAttribute("class","mobile-links__item-title")
+const div8 = document.createElement("div")
+div8.setAttribute("class","mobile-links__item-title")
 
-const link4 = document.createElement("A")
-link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
-link4.setAttribute("class","mobile-links__item-link keychainify-checked")
-link4.innerText = "AutoCAD"
+const link8 = document.createElement("A")
+link8.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link8.setAttribute("class","mobile-links__item-link keychainify-checked")
+link8.innerText = "AutoCAD"
 
-cursos4.appendChild(div4)
-div4.appendChild(link4)
+cursos8.appendChild(div8)
+div8.appendChild(link8)
 
 document.getElementsByClassName("mobile-links")[1]
-const child4 = document.getElementsByClassName("mobile-links")[1]
-child4.insertBefore(cursos4, child4.firstChild)
+const child8 = document.getElementsByClassName("mobile-links")[1]
+child8.insertBefore(cursos8, child8.firstChild)
 
 // ITEM 9
 
-const cursos4 = document.createElement("li")
-cursos4.setAttribute("class","mobile-links__item")
+const cursos9 = document.createElement("li")
+cursos9.setAttribute("class","mobile-links__item")
 
-const div4 = document.createElement("div")
-div4.setAttribute("class","mobile-links__item-title")
+const div9 = document.createElement("div")
+div9.setAttribute("class","mobile-links__item-title")
 
-const link4 = document.createElement("A")
-link4.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
-link4.setAttribute("class","mobile-links__item-link keychainify-checked")
-link4.innerText = "AutoCAD"
+const link9 = document.createElement("A")
+link9.setAttribute("href","https://rocketacademyschool.com.br/categoria/autocad")
+link9.setAttribute("class","mobile-links__item-link keychainify-checked")
+link9.innerText = "AutoCAD"
 
-cursos4.appendChild(div4)
-div4.appendChild(link4)
+cursos9.appendChild(div9)
+div9.appendChild(link9)
 
 document.getElementsByClassName("mobile-links")[1]
-const child4 = document.getElementsByClassName("mobile-links")[1]
-child4.insertBefore(cursos4, child4.firstChild)
+const child9 = document.getElementsByClassName("mobile-links")[1]
+child9.insertBefore(cursos9, child9.firstChild)
 
 // ITEM 10
 

@@ -290,12 +290,14 @@ vertodos6.innerText = 'Desenvolvimento Profissional'
 vertodos6.setAttribute("href","https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional")
 
 const portal = document.createElement("li")
+portal.setAttribute("class","mobile-links__item")
 
 const portaldiv = document.createElement("div")
 portaldiv.setAttribute("class","mobile-links__item-title")
 
 const linkportal = document.createElement("A")
 linkportal.setAttribute("href","https://www.cursoo.com.br/login/1377")
+linkportal.setAttribute("class","mobile-links__item-link")
 linkportal.innerText = "Portal do Aluno"
 
 const portalmobile = document.getElementsByClassName('mobile-links')[0]

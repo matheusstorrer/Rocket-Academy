@@ -77,3 +77,7 @@ body {
     margin-bottom: 64px;
   }
 }  
+
+@media (max-width: 767px)
+.products-list[data-layout="list"] .product-card .product-card__image {
+    width: 357px;

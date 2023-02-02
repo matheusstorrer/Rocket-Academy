@@ -29,7 +29,7 @@ const removemapasite = document.getElementsByClassName('footer-links')[0]
 removemapasite.remove()
 
 const mercadopago = document.getElementsByClassName('mp')[0]
-mercadopago.src = 'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/12xML.png'
+mercadopago.src = 'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/12xML_Final.png'
 
 const footer = document.getElementsByClassName('site-footer')[0]
 footer.style.borderTop = '0px'
@@ -257,7 +257,7 @@ child10.insertBefore(cursos10, child10.firstChild)
 
 const icon = document.createElement("img")
 icon.setAttribute("src","https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Rocket_LOGO_Mobile2.png")
-icon.setAttribute("style","max-width: 36px")
+icon.setAttribute("style","max-width: 32px")
 
 const mobilelogo = document.getElementsByClassName('mobile-header__logo')[0]
 

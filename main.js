@@ -257,7 +257,7 @@ child10.insertBefore(cursos10, child10.firstChild)
 
 const icon = document.createElement("img")
 icon.setAttribute("src","https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Rocket_LOGO_Mobile2.png")
-icon.setAttribute("style","margin-right: 10px")
+icon.setAttribute("style","margin-right: 10px; max-width: 36px")
 
 const mobilelogo = document.getElementsByClassName('mobile-header__logo')[0]
 

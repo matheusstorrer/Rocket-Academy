@@ -22,7 +22,7 @@ hr {
 }
 
 .products-list[data-layout="list"] .product-card {
-  box-shadow: 0 2px 3px 0px #6211c0;
+  box-shadow: -1 2px 3px 0px #6211c0;
 }
 
 .owl-carousel .owl-stage {
@@ -43,7 +43,7 @@ hr {
 }
 
 .product-card::before {
-  box-shadow: 0 2px 3px 0px #6211c0;
+  box-shadow: -1 2px 3px 0px #6211c0;
 }
 
 .product__prices {
@@ -106,7 +106,7 @@ hr {
    max-width: 100%;
  }
  .products-list[data-layout="list"] .product-card {
-   box-shadow: 0 2px 3px 0px #6211c0;
+   box-shadow: -1 2px 3px 0px #6211c0;
  }
 }
 
@@ -126,7 +126,7 @@ hr {
     text-align: left;
   }
   .products-list[data-layout="list"] .product-card {
-    box-shadow: 0 2px 3px 0px #6211c0;
+    box-shadow: -1 2px 3px 0px #6211c0;
   }
   
   .block-products-carousel__cell {

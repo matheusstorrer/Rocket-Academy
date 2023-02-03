@@ -131,5 +131,10 @@ hr {
   
   .block-products-carousel__cell {
     padding: 6px;
-  }  
+  }
+  
+  .block-banner__button {
+    padding-right: 20px;
+    padding-top: 65px;
+  }
 }  

@@ -29,7 +29,7 @@ const removemapasite = document.getElementsByClassName('footer-links')[0]
 removemapasite.remove()
 
 const mercadopago = document.getElementsByClassName('mp')[0]
-mercadopago.src = 'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/12xML_Finalmesmo.png'
+mercadopago.src = 'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/12xML_Banner.png'
 
 const footer = document.getElementsByClassName('site-footer')[0]
 footer.style.borderTop = '0px'

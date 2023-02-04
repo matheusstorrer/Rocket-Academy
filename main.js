@@ -314,6 +314,16 @@ if (window.innerWidth < 768) {
   document.getElementsByClassName('block-slideshow__slide-image--mobile')[1].outerHTML = '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Banner_MOBILE_EXCEL.png\')"></div>'
   document.getElementsByClassName('block-slideshow__slide-image--mobile')[2].outerHTML = '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Banner_MOBILE_CANVA.png\')"></div>'
   document.getElementsByClassName('block-slideshow__slide-image--mobile')[3].outerHTML = '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Banner%20ROCKET_MOBILE.png\')"></div>'
-
+  document.getElementsByClassName('footer-contacts')[0].outerHTML = '<div id="contact-section" class="site-footer__widget footer-contacts"><h5 class="footer-contacts__title">Fale Conosco</h5><div class="footer-contacts__contacts"><div class="address"><h6 class=".footer-subtitle">Endereço:</h6><p class="endereco">Rua Manoel Guimarães Teixeira, 706</p><p>Ortigueira - Paraná</p></div><div class="email">
+            <h6 class=".footer-subtitle">Email:</h6>
+            <p>contato@rocketacademyschool.com.br</p>
+          </div>
+          <div class="phone">
+            <h6 class=".footer-subtitle">Whatsapp:</h6>
+            <p>(43) 98803-4180</p>
+          </div>
+        </div>
+    </div>
+    <hr>'
 }
 

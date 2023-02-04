@@ -104,6 +104,13 @@ hr {
   position: fixed;
   border: 2px solid;
   border-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.totop__button:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
 
 .btn-primary.focus, .btn-primary:focus, .btn-primary:hover {

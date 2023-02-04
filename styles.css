@@ -133,6 +133,10 @@ hr {
     padding: 6px;
   }
   
+  .block-slideshow__slide-image--mobile {
+    background-size: cover;
+  } 
+  
   .block-banner__button {
     padding-right: 20px;
     padding-top: 115px;

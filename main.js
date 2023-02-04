@@ -313,6 +313,7 @@ if (window.innerWidth < 768) {
   document.getElementsByClassName('block-slideshow__slide-image--mobile')[0].outerHTML = '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Banner_MOBILE_CAD.png\')"></div>'
   document.getElementsByClassName('block-slideshow__slide-image--mobile')[1].outerHTML = '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Banner_MOBILE_EXCEL.png\')"></div>'
   document.getElementsByClassName('block-slideshow__slide-image--mobile')[2].outerHTML = '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Banner_MOBILE_CANVA.png\')"></div>'
+  document.getElementsByClassName('block-slideshow__slide-image--mobile')[3].outerHTML = '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Banner%20ROCKET_MOBILE.png\')"></div>'
 
 }
 

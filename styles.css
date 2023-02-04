@@ -140,6 +140,10 @@ hr {
     color: white;
 }
 
+.endereco {
+    margin-bottom: 0px;
+}
+
 @media (min-width: 992px) {
  .col-lg-4 {
    max-width: 100%;
@@ -162,10 +166,6 @@ hr {
   .footer-subtitle {
     font-size: 20px;
     font-weight: 700;
-  }
-
-  .endereco {
-    margin-bottom: 0px;
   }
   
   .footer-newsletter {

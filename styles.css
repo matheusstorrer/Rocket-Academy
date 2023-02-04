@@ -137,20 +137,20 @@ hr {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     z-index: 999;
-}
+  }
   
-.whatsapp-btn:hover {
+  .whatsapp-btn:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-}
+  }
 
-.fa-whatsapp:before {
+  .fa-whatsapp:before {
     color: white;
+  }
   
   .footer-subtitle {
     font-size: 20px;
     font-weight: 700;
-
   }
 
   .endereco {
@@ -161,9 +161,11 @@ hr {
     text-align: left;
     margin-top: 0px;
   }
+  
   .footer-contacts {
     text-align: left;
   }
+  
   .products-list[data-layout="list"] .product-card {
     box-shadow: 0 1px 2px 0px #6211c0;
   }
@@ -180,5 +182,4 @@ hr {
     padding-right: 20px;
     padding-top: 115px;
   }
-  
 }  

@@ -202,7 +202,8 @@ hr {
  }
 }
 
-.totop__button:active {
+ .totop__button:active{
   color: #fff;
   background: #6211c0;
+ }
 }

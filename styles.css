@@ -141,6 +141,16 @@ hr {
     width: 357px;
   }
   
+  .footer-subtitle {
+    font-size: 20px;
+    font-weight: 700;
+
+  }
+
+  .endereco {
+    margin-bottom: 0px;
+  }
+  
   .footer-newsletter {
     text-align: left;
   }

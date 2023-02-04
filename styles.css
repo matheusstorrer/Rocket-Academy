@@ -193,3 +193,16 @@ hr {
     padding-top: 115px;
   }
 }  
+@media (hover: hover) {
+ .totop__button:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    background: #6211c0;
+ }
+}
+
+.totop__button:active {
+  color: #fff;
+  background: #6211c0;
+}

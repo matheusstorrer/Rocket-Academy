@@ -104,13 +104,6 @@ hr {
   position: fixed;
   border: 2px solid;
   border-color: white;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-}
-
-.totop__button:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
 
 .btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
@@ -135,12 +128,16 @@ hr {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     z-index: 999;
-  }
+}
   
-  .whatsapp-btn:hover {
+.whatsapp-btn:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-  }
+}
+
+.fa-whatsapp:before {
+    color: white;
+}
 
 @media (min-width: 992px) {
  .col-lg-4 {
@@ -156,14 +153,11 @@ hr {
     margin-top: 64px;
     margin-bottom: 64px;
   }
+  
   .products-list[data-layout="list"] .product-card .product-card__image {
     width: 357px;
   }
-  
-  .fa-whatsapp:before {
-    color: white;
-  }
-  
+    
   .footer-subtitle {
     font-size: 20px;
     font-weight: 700;

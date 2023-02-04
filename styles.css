@@ -153,6 +153,7 @@ hr {
   
   .footer-newsletter {
     text-align: left;
+    margin-top: 0px;
   }
   .footer-contacts {
     text-align: left;
@@ -173,4 +174,5 @@ hr {
     padding-right: 20px;
     padding-top: 115px;
   }
+  
 }  

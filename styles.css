@@ -1,6 +1,7 @@
 body {
   font-family: 'Montserrat', 'sans-serif';
   color: #6211c0;
+  visibility: hidden;
 }
 
 .site-footer {

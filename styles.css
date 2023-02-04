@@ -83,6 +83,27 @@ hr {
     border-color: #6211c0;
     background: #6211c0;
     color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.whatsapp-btn i {
+  margin-right: 10px;
+  font-size: 20px;
 }
 
 .topbar {

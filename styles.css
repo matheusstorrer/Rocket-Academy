@@ -141,6 +141,25 @@ hr {
     width: 357px;
   }
   
+  #whatsapp-btn {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+
+  #whatsapp-btn i {
+   margin-right: 10px;
+   font-size: 20px;
+  }
+  
   .footer-subtitle {
     font-size: 20px;
     font-weight: 700;

@@ -264,47 +264,7 @@ const mobilelogo = document.getElementsByClassName('mobile-header__logo')[0]
 mobilelogo.insertBefore(icon, mobilelogo.firstChild)
 
 
-// ------------------------------------------------------- //
-const vertodos1 = document.getElementsByClassName('menu__item-link')[2]
-vertodos1.innerText = 'Engenharia e Arquitetura'
-vertodos1.setAttribute("href","https://rocketacademyschool.com.br/categoria/engenharia-e-arquitetura")
 
-const vertodos2 = document.getElementsByClassName('menu__item-link')[3]
-vertodos2.innerText = 'Informática para Concursos'
-vertodos2.setAttribute("href","https://rocketacademyschool.com.br/categoria/informatica-para-concursos")
-
-const vertodos3 = document.getElementsByClassName('menu__item-link')[4]
-vertodos3.innerText = 'Fotografia'
-vertodos3.setAttribute("href","https://rocketacademyschool.com.br/categoria/fotografia")
-
-const vertodos4 = document.getElementsByClassName('menu__item-link')[5]
-vertodos4.innerText = 'Programação WEB'
-vertodos4.setAttribute("href","https://rocketacademyschool.com.br/categoria/programacao-web")
-
-const vertodos5 = document.getElementsByClassName('menu__item-link')[6]
-vertodos5.innerText = 'Youtuber'
-vertodos5.setAttribute("href","https://rocketacademyschool.com.br/categoria/youtuber")
-
-const vertodos6 = document.getElementsByClassName('menu__item-link')[7]
-vertodos6.innerText = 'Desenvolvimento Profissional'
-vertodos6.setAttribute("href","https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional")
-
-const portal = document.createElement("li")
-portal.setAttribute("class","mobile-links__item")
-
-const portaldiv = document.createElement("div")
-portaldiv.setAttribute("class","mobile-links__item-title")
-
-const linkportal = document.createElement("A")
-linkportal.setAttribute("href","https://www.cursoo.com.br/login/1377")
-linkportal.setAttribute("class","mobile-links__item-link")
-linkportal.setAttribute("style","font-weight: bold")
-linkportal.innerText = "Portal do Aluno"
-
-const portalmobile = document.getElementsByClassName('mobile-links')[0]
-portal.appendChild(portaldiv)
-portaldiv.appendChild(linkportal)
-portalmobile.appendChild(portal)
 
 const wpp = document.getElementsByClassName('site-footer')[0];
 wpp.innerHTML = '<a href="https://wa.me/5543988034180?text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+cursos+da+Rocket+Academy%21+%F0%9F%9A%80" class="whatsapp-btn" target="_blank"><i class="fa fa-whatsapp"></i></a></div>' + wpp.innerHTML;
@@ -319,6 +279,47 @@ if (window.innerWidth < 768) {
   document.getElementsByClassName('block-slideshow__slide-image--mobile')[2].outerHTML = '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Banner_MOBILE_CANVA.png\')"></div>'
   document.getElementsByClassName('block-slideshow__slide-image--mobile')[3].outerHTML = '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Banner%20ROCKET_MOBILE.png\')"></div>'
   document.getElementsByClassName('footer-contacts')[0].outerHTML = '<div class="site-footer__widget footer-contacts"><h5 class="footer-contacts__title">Fale Conosco</h5><div class="footer-contacts__contacts"><div class="address"><h6 class=".footer-subtitle">Endereço:</h6><p class="endereco">Rua Manoel Guimarães Teixeira, 706</p><p>Ortigueira - Paraná</p></div><div class="email"><h6 class=".footer-subtitle">Email:</h6><p>contato@rocketacademyschool.com.br</p></div><div class="phone"><h6 class=".footer-subtitle">Whatsapp:</h6><p>(43) 98803-4180</p></div></div></div><hr>';
+  // ------------------------------------------------------- //
+  const vertodos1 = document.getElementsByClassName('menu__item-link')[2]
+  vertodos1.innerText = 'Engenharia e Arquitetura'
+  vertodos1.setAttribute("href","https://rocketacademyschool.com.br/categoria/engenharia-e-arquitetura")
+
+  const vertodos2 = document.getElementsByClassName('menu__item-link')[3]
+  vertodos2.innerText = 'Informática para Concursos'
+  vertodos2.setAttribute("href","https://rocketacademyschool.com.br/categoria/informatica-para-concursos")
+
+  const vertodos3 = document.getElementsByClassName('menu__item-link')[4]
+  vertodos3.innerText = 'Fotografia'
+  vertodos3.setAttribute("href","https://rocketacademyschool.com.br/categoria/fotografia")
+
+  const vertodos4 = document.getElementsByClassName('menu__item-link')[5]
+  vertodos4.innerText = 'Programação WEB'
+  vertodos4.setAttribute("href","https://rocketacademyschool.com.br/categoria/programacao-web")
+
+  const vertodos5 = document.getElementsByClassName('menu__item-link')[6]
+  vertodos5.innerText = 'Youtuber'
+  vertodos5.setAttribute("href","https://rocketacademyschool.com.br/categoria/youtuber")
+
+  const vertodos6 = document.getElementsByClassName('menu__item-link')[7]
+  vertodos6.innerText = 'Desenvolvimento Profissional'
+  vertodos6.setAttribute("href","https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional")
+
+  const portal = document.createElement("li")
+  portal.setAttribute("class","mobile-links__item")
+
+  const portaldiv = document.createElement("div")
+  portaldiv.setAttribute("class","mobile-links__item-title")
+
+  const linkportal = document.createElement("A")
+  linkportal.setAttribute("href","https://www.cursoo.com.br/login/1377")
+  linkportal.setAttribute("class","mobile-links__item-link")
+  linkportal.setAttribute("style","font-weight: bold")
+  linkportal.innerText = "Portal do Aluno"
+
+  const portalmobile = document.getElementsByClassName('mobile-links')[0]
+  portal.appendChild(portaldiv)
+  portaldiv.appendChild(linkportal)
+  portalmobile.appendChild(portal)
 }
 
 document.getElementsByClassName('block-banner__title')[0].remove()

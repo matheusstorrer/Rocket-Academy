@@ -199,6 +199,15 @@ hr {
     margin-bottom: 64px;
   }
 
+  [dir=ltr] .mobilemenu__close {
+    border-left: none;
+    fill: #6211c0;
+  }
+
+  .mobile-links--level--0 > .mobile-links__item {
+    border-bottom: none;
+  }
+
   .products-list[data-layout="list"] .product-card .product-card__image {
     width: 357px;
   }

@@ -4,6 +4,13 @@ body {
   visibility: hidden;
 }
 
+.topbar-link b {
+  border-radius: 5px;
+  color: white;
+  background-color: #6211c0;
+  padding: 2px 10px;
+}
+
 .site-footer {
   color: white;
   margin-top: 32px;
@@ -105,6 +112,15 @@ hr {
   border: 2px solid;
   border-color: white;
   transition: all 0.3s ease;
+}
+
+.btn-primary, .btn-primary.disabled, .btn-primary:disabled {
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    border-color: #6211c0;
+    background: #6211c0;
+    color: #fff;
+    fill: #fff;
 }
 
 .btn-primary.focus, .btn-primary:focus, .btn-primary:hover {

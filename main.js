@@ -27,6 +27,9 @@ const spacefooter = document.getElementsByClassName('site-footer__widgets')[0]
   .children[0]
 spacefooter.style.justifyContent = 'space-between'
 
+document.getElementsByClassName('social-links__list')[0].innerHTML =
+  '<li class="social-links__item"><a class="social-links__link social-links__link--type--facebook keychainify-checked" href="https://www.facebook.com/Rocket-Academy-114394604615093" target="_blank"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/de0bbbeed6e9fbd4d07301f27e20b56961a9ab42/icons/facebook.svg" class="midia_icons"></a></li><li class="social-links__item"><a class="social-links__link social-links__link--type--instagram keychainify-checked" href="https://www.instagram.com/rocketacademy.school/" target="_blank"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/600c2088d174726f10b7f4344d69848f1e5e718c/icons/instagram_t.svg" class="midia_icons"></a></li><li class="social-links__item"><a class="social-links__link social-links__link--type--twitter keychainify-checked" href="https://twitter.com/RocketAcademyS" target="_blank"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/de0bbbeed6e9fbd4d07301f27e20b56961a9ab42/icons/twitter.svg" class="midia_icons"></a></li><li class="social-links__item"><a class="social-links__link social-links__link--type--youtube keychainify-checked" href="https://www.youtube.com/channel/UCgwSCfXB5b5t5c4A5zgCXCw" target="_blank"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/de0bbbeed6e9fbd4d07301f27e20b56961a9ab42/icons/youtube.svg" class="midia_icons"></i></a></li>'
+
 if (window.location.href === 'https://rocketacademyschool.com.br') {
   const divider = document.getElementsByClassName('block-header__divider')[0]
   divider.style.background = '#6211c0'

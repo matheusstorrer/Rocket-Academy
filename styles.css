@@ -200,6 +200,10 @@ hr {
     max-width: 28px;
   }
 
+  .block-slideshow__slide-button {
+    margin-top: 290px;
+  }
+
   .block-slideshow__slide-image--desktop {
     visibility: hidden;
   }

@@ -200,6 +200,10 @@ hr {
     max-width: 28px;
   }
 
+  .block-slideshow__slide-image--desktop {
+    visibility: hidden;
+  }
+
   [dir=ltr] .mobilemenu__close {
     border-left: none;
     fill: #6211c0;

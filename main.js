@@ -293,7 +293,7 @@ if (window.innerWidth < 768) {
   document.getElementsByClassName(
     'block-slideshow__slide-image--mobile'
   )[3].outerHTML =
-    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Banner%20ROCKET_MOBILE.png\')"></div>'
+    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/banners/Banner%20ROCKET_MOBILE_INSTITUCIONAL.png\')"></div>'
 
   // ------------------------------------------------------- //
 

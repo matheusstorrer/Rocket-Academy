@@ -196,6 +196,10 @@ hr {
     margin-bottom: 64px;
   }
 
+  .mobile-header__logo img {
+    max-width: 28px;
+  }
+
   [dir=ltr] .mobilemenu__close {
     border-left: none;
     fill: #6211c0;

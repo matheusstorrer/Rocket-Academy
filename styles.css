@@ -255,6 +255,10 @@ hr {
     font-size: 13px;
   }
 
+  .mobile-header__logo img {
+    max-width: 24px;
+  }
+
   .block-slideshow__slide-button {
     margin-top: 18rem;
   }

@@ -100,6 +100,11 @@ hr {
   height: 50px;
 }
 
+.contact_icons {
+  width: 24px;
+  margin-right: 10px;
+}
+
 .social-links__item {
   margin: 16px 20px 10px 12px;
 

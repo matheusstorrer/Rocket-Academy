@@ -18,7 +18,7 @@ removemapasite.remove()
 
 const mercadopago = document.getElementsByClassName('mp')[0]
 mercadopago.src =
-  'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/12xML_Banner.png'
+  'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/banners/12xML_Banner.png'
 
 const footer = document.getElementsByClassName('site-footer')[0]
 footer.style.borderTop = '0px'
@@ -256,7 +256,7 @@ child10.insertBefore(cursos10, child10.firstChild)
 const icon = document.createElement('img')
 icon.setAttribute(
   'src',
-  'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Rocket_LOGO_Mobile2.png'
+  'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/icons/Rocket_LOGO_Mobile.png'
 )
 icon.setAttribute('style', 'max-width: 28px')
 

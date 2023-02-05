@@ -261,6 +261,15 @@ hr {
     padding-top: 115px;
   }
 }
+@media (max-width: 370px) {
+  .mobile-header__logo span {
+    font-size: 13px;
+  }
+
+  .mobile-header__logo img {
+    max-width: 24px;
+  }
+}
 
 @media (max-width: 340px) {
   .mobile-header__logo span {

@@ -4,10 +4,6 @@ body {
   visibility: hidden;
 }
 
-a {
-  text-decoration: none;
-}
-
 .topbar-link b {
   border-radius: 5px;
   color: white;
@@ -75,7 +71,7 @@ hr {
 }
 
 .product-tabs__item:hover {
-  border-bottom-color: #6211c0; 
+  border-bottom-color: #6211c0;
 }
 
 [dir=ltr] .products-list[data-layout="list"] .product-card .product-card__actions {
@@ -150,7 +146,7 @@ hr {
     transition: all 0.3s ease;
     z-index: 999;
 }
-  
+
 .whatsapp-btn:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
@@ -178,42 +174,42 @@ hr {
     margin-top: 64px;
     margin-bottom: 64px;
   }
-  
+
   .products-list[data-layout="list"] .product-card .product-card__image {
     width: 357px;
   }
-    
+
   .footer-subtitle {
     font-size: 20px;
     font-weight: 700;
   }
-  
+
   .footer-newsletter {
     text-align: left;
     margin-top: 0px;
   }
-  
+
   .footer-contacts {
     text-align: left;
   }
-  
+
   .products-list[data-layout="list"] .product-card {
     box-shadow: 0 1px 2px 0px #6211c0;
   }
-  
+
   .block-products-carousel__cell {
     padding: 6px;
   }
-  
+
   .block-slideshow__slide-image--mobile {
     background-size: cover;
-  } 
-  
+  }
+
   .block-banner__button {
     padding-right: 20px;
     padding-top: 115px;
   }
-}  
+}
 @media (hover: hover) {
  .totop__button:hover{
     transform: translateY(-10px);
@@ -221,10 +217,9 @@ hr {
     color: #fff;
     background: #6211c0;
  }
-}
 
  .totop__button:active{
-  color: #fff;
-  background: #6211c0;
+    color: #fff;
+    background: #6211c0;
  }
 }

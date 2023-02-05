@@ -1,9 +1,6 @@
 document.getElementsByClassName('nav-links__item-body')[3].innerText =
   'Todas as Categorias  ↓'
 
-// const contato = document.getElementsByClassName('topbar__item')[1]
-// document.getElementsByClassName('topbar__row')[0].removeChild(contato)
-
 const cadastro = document.getElementsByClassName('topbar__item')[3]
 document.getElementsByClassName('topbar__row')[0].removeChild(cadastro)
 
@@ -15,12 +12,6 @@ topbarPortal.setAttribute('style', 'margin-right: 16px')
 
 const menumobile = document.getElementsByClassName('mobile-links__item')[0]
 menumobile.remove()
-
-// const endereco = document.getElementsByClassName('footer-contacts__contacts')[0].firstElementChild
-// endereco.remove()
-
-// const telefone = document.getElementsByClassName('site-footer__widgets')[0].children[0].children[0]
-// telefone.remove()
 
 const removemapasite = document.getElementsByClassName('footer-links')[0]
 removemapasite.remove()
@@ -55,24 +46,6 @@ if (window.location.href === 'https://rocketacademyschool.com.br') {
   const icons4 = document.getElementsByClassName('block-features__item')[3]
   icons4.style.backgroundColor = '#ffffff'
 }
-
-// ITENS DO MENU MOBILE //
-// const cursos1 = document.createElement("li")
-// cursos1.setAttribute("class","mobile-links__item")
-
-// const div1 = document.createElement("div")
-// div1.setAttribute("class","mobile-links__item-title")
-
-// const link1 = document.createElement("A")
-// link1.setAttribute("href","https://rocketacademyschool.com.br/categoria/microsoft-office")
-// link1.setAttribute("class","mobile-links__item-link keychainify-checked")
-// link1.innerText = "Microsoft Office 365"
-
-// cursos1.appendChild(div1)
-// div1.appendChild(link1)
-
-// const child1 = document.getElementsByClassName("mobile-links")[1]
-// child1.insertBefore(cursos1, child1.firstChild)
 
 // ITEM 2
 const cursos2 = document.createElement('li')

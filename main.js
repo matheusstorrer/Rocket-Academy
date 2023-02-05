@@ -261,10 +261,7 @@ icon.setAttribute(
   'src',
   'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/icons/Rocket_LOGO_Mobile.png'
 )
-icon.setAttribute('style', 'max-width: 28px')
-
 const mobilelogo = document.getElementsByClassName('mobile-header__logo')[0]
-
 mobilelogo.insertBefore(icon, mobilelogo.firstChild)
 
 const wpp = document.getElementsByClassName('site-footer')[0]

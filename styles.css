@@ -252,8 +252,18 @@ hr {
   .block-slideshow__slide-button {
     margin-top: 18rem;
   }
-  
+
+  .mobile-header__logo span {
+    font-size: 13px;
+  }
 }
+
+@media (max-width: 340px) {
+  .mobile-header__logo span {
+    font-size: 13px;
+  }
+}
+
 @media (hover: hover) {
  .totop__button:hover{
     transform: translateY(-10px);

@@ -14,7 +14,7 @@ const topbarPortal = document.getElementsByClassName('topbar-link')[0]
 topbarPortal.innerHTML = '<b>Portal do Aluno</b>'
 topbarPortal.href = 'https://www.cursoo.com.br/login/1377'
 topbarPortal.setAttribute("target","_blank")
-topbarPortal.setAttribute("style","margin-right: 50px")
+topbarPortal.setAttribute("style","margin-right: 16px")
 
 const menumobile = document.getElementsByClassName('mobile-links__item')[0]
 menumobile.remove()
@@ -257,7 +257,7 @@ child10.insertBefore(cursos10, child10.firstChild)
 
 const icon = document.createElement("img")
 icon.setAttribute("src","https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/Rocket_LOGO_Mobile2.png")
-icon.setAttribute("style","max-width: 32px")
+icon.setAttribute("style","max-width: 28px")
 
 const mobilelogo = document.getElementsByClassName('mobile-header__logo')[0]
 
@@ -271,29 +271,7 @@ wpp.innerHTML = '<a href="https://wa.me/5543988034180?text=Ol%C3%A1%21+Gostaria+
 
 document.getElementsByClassName('site-footer__widget')[0].innerHTML = '<h5 class="footer-contacts__title">Fale Conosco</h5><div class="footer-contacts__contacts"><div class="address"><h6 class=".footer-subtitle">Endereço:</h6><p class="endereco">Rua Manoel Guimarães Teixeira, 706</p><p>Ortigueira - Paraná</p></div><div class="email"><h6 class=".footer-subtitle">Email:</h6><p>contato@rocketacademyschool.com.br</p></div><div class="phone"><h6 class=".footer-subtitle">Whatsapp:</h6><p>(43) 98803-4180</p></div></div>'
 
-const vertodos1 = document.getElementsByClassName('menu__item-link')[0]
- vertodos1.innerText = 'Engenharia e Arquitetura'
- vertodos1.setAttribute("href","https://rocketacademyschool.com.br/categoria/engenharia-e-arquitetura")
-
-  const vertodos2 = document.getElementsByClassName('menu__item-link')[1]
-  vertodos2.innerText = 'Informática para Concursos'
-  vertodos2.setAttribute("href","https://rocketacademyschool.com.br/categoria/informatica-para-concursos")
-
-  const vertodos3 = document.getElementsByClassName('menu__item-link')[2]
-  vertodos3.innerText = 'Fotografia'
-  vertodos3.setAttribute("href","https://rocketacademyschool.com.br/categoria/fotografia")
-
-  const vertodos4 = document.getElementsByClassName('menu__item-link')[3]
-  vertodos4.innerText = 'Programação WEB'
-  vertodos4.setAttribute("href","https://rocketacademyschool.com.br/categoria/programacao-web")
-
-  const vertodos5 = document.getElementsByClassName('menu__item-link')[4]
-  vertodos5.innerText = 'Youtuber'
-  vertodos5.setAttribute("href","https://rocketacademyschool.com.br/categoria/youtuber")
-
-  const vertodos6 = document.getElementsByClassName('menu__item-link')[5]
-  vertodos6.innerText = 'Desenvolvimento Profissional'
-  vertodos6.setAttribute("href","https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional")
+document.getElementsByClassName('menu__list')[1].innerHTML = '<ul class="menu__list"><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/engenharia-e-arquitetura">Engenharia e Arquitetura</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/informatica-para-concursos">Informática para Concursos</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/fotografia">Fotografia</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/programacao-web">Programação WEB</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/youtuber">Youtuber</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional">Desenvolvimento Profissional</a></li></ul>'
 
 if (window.innerWidth < 768) {
   

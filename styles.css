@@ -94,6 +94,11 @@ hr {
     border-radius: 6px;
 }
 
+.media_icons {
+  width: 36px;
+  height: 36px;
+}
+
 .topbar {
   background-color: #ffffff;
   color: #6211c0;

@@ -114,9 +114,6 @@ hr {
   margin: 16px 20px 10px 12px;
 }
 
-.social-links__list {
-  margin: 0 0 60px 10px;
-}
 .topbar {
   background-color: #ffffff;
   color: #6211c0;
@@ -207,6 +204,10 @@ hr {
   [dir=ltr] .mobile-links__item-toggle {
     border-left: none;
     fill: #6211c0;
+  }
+
+  .social-links__list {
+    margin: 0 0 60px 10px;
   }
 
   .mobile-links--level--0 > .mobile-links__item {

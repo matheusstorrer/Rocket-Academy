@@ -105,6 +105,11 @@ hr {
   margin-right: 10px;
 }
 
+.footer-subtitle {
+  display: flex;
+  align-items: center;
+}
+
 .social-links__item {
   margin: 16px 20px 10px 12px;
 

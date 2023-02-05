@@ -248,6 +248,11 @@ hr {
     padding-right: 20px;
     padding-top: 115px;
   }
+
+  .block-slideshow__slide-button {
+    margin-top: 18rem;
+  }
+  
 }
 @media (hover: hover) {
  .totop__button:hover{

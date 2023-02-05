@@ -248,19 +248,15 @@ hr {
     padding-right: 20px;
     padding-top: 115px;
   }
-
-  .block-slideshow__slide-button {
-    margin-top: 18rem;
-  }
-
-  .mobile-header__logo span {
-    font-size: 13px;
-  }
 }
 
 @media (max-width: 340px) {
   .mobile-header__logo span {
     font-size: 13px;
+  }
+
+  .block-slideshow__slide-button {
+    margin-top: 18rem;
   }
 }
 

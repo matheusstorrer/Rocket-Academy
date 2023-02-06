@@ -285,15 +285,15 @@ if (window.innerWidth < 768) {
   document.getElementsByClassName(
     'block-slideshow__slide-image--mobile'
   )[0].outerHTML =
-    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/7a25fca80161ba1e6ec04ca86baca9fa6f3d14fc/banners/Banner_MOBILE_CAD.svg\')"></div>'
+    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/53d0d1293958330834c1f1331ffb1d31e09c9d37/banners/Banner_MOBILE_CAD.svg\')"></div>'
   document.getElementsByClassName(
     'block-slideshow__slide-image--mobile'
   )[1].outerHTML =
-    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/25df59145c1cb3958a5debcf43a0ccb61bc65f98/banners/Banner_MOBILE_EXCEL.svg\')"></div>'
+    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/53d0d1293958330834c1f1331ffb1d31e09c9d37/banners/Banner_MOBILE_EXCEL.svg\')"></div>'
   document.getElementsByClassName(
     'block-slideshow__slide-image--mobile'
   )[2].outerHTML =
-    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/25df59145c1cb3958a5debcf43a0ccb61bc65f98/banners/Banner_MOBILE_CANVA.svg\')"></div>'
+    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/53d0d1293958330834c1f1331ffb1d31e09c9d37/banners/Banner_MOBILE_CANVA.svg\')"></div>'
   document.getElementsByClassName(
     'block-slideshow__slide-image--mobile'
   )[3].outerHTML =

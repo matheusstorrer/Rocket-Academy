@@ -285,7 +285,7 @@ if (window.innerWidth < 768) {
   document.getElementsByClassName(
     'block-slideshow__slide-image--mobile'
   )[0].outerHTML =
-    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/2a7a95aedcff323d0086a4985f13d4260e790977/banners/Banner_MOBILE_CAD.svg\')"></div>'
+    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/db699b7ea185219a3306a61c5693ba221b6f552b/banners/Banner_MOBILE_CAD_2.svg\')"></div>'
   document.getElementsByClassName(
     'block-slideshow__slide-image--mobile'
   )[1].outerHTML =

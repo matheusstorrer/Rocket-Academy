@@ -13,11 +13,14 @@ topbarPortal.setAttribute('style', 'margin-right: 16px')
 const menumobile = document.getElementsByClassName('mobile-links__item')[0]
 menumobile.remove()
 
-document.getElementsByClassName('category-card__image')[0].innerHTML =
+document.getElementsByClassName('category-card__image')[2].innerHTML =
+  '<a href="categoria/marketing-e-vendas" class="destaques_icon keychainify-checked"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/a51c096cb1d0f924bd55517e0ff0e72d5b3bacb9/icons/marketing.svg" alt="Cursos de Marketing e Vendas"></a>'
+
+document.getElementsByClassName('category-card__image')[1].innerHTML =
   '<a href="categoria/youtuber" class="destaques_icon keychainify-checked"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/ab2bfa213a224bc2ed373200ae102f1ce40b9284/icons/youtube_destaque.svg" alt="Cursos de Youtuber"></a>'
 
 document.getElementsByClassName('category-card__image')[0].innerHTML =
-  '<a href="categoria/especialista-em-excel" class="destaques_icon keychainify-checked"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/2c0cf23781d9feafbf37fabc6f803cd58fd0c85c/icons/excel-app.svg" alt=""></a>'
+  '<a href="categoria/especialista-em-excel" class="destaques_icon keychainify-checked"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/2c0cf23781d9feafbf37fabc6f803cd58fd0c85c/icons/excel-app.svg" alt="Cursos de Excel"></a>'
 
 const removemapasite = document.getElementsByClassName('footer-links')[0]
 removemapasite.remove()

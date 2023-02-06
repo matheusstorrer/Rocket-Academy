@@ -13,6 +13,9 @@ topbarPortal.setAttribute('style', 'margin-right: 16px')
 const menumobile = document.getElementsByClassName('mobile-links__item')[0]
 menumobile.remove()
 
+document.getElementsByClassName('category-card__image')[0].innerHTML =
+  '<a href="categoria/especialista-em-excel" class="destaques_icon keychainify-checked"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/2c0cf23781d9feafbf37fabc6f803cd58fd0c85c/icons/excel-app.svg" alt=""></a>'
+
 const removemapasite = document.getElementsByClassName('footer-links')[0]
 removemapasite.remove()
 

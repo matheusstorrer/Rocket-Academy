@@ -18,7 +18,7 @@ body {
 }
 
 .site-footer__widgets {
-    padding: 32px 0px;
+  padding: 32px 0px;
 }
 
 .footer-contacts__icon::before {
@@ -257,7 +257,7 @@ hr {
   }
 
   .block-slideshow__slide-image--mobile {
-    background-size: cover;
+    background-size: contain;
   }
 
   .block-banner__button {

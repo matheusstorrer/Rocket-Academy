@@ -289,11 +289,11 @@ if (window.innerWidth < 768) {
   document.getElementsByClassName(
     'block-slideshow__slide-image--mobile'
   )[1].outerHTML =
-    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/banners/Banner_MOBILE_EXCEL.png\')"></div>'
+    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/25df59145c1cb3958a5debcf43a0ccb61bc65f98/banners/Banner_MOBILE_EXCEL.svg\')"></div>'
   document.getElementsByClassName(
     'block-slideshow__slide-image--mobile'
   )[2].outerHTML =
-    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/banners/Banner_MOBILE_CANVA_1.png\')"></div>'
+    '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/25df59145c1cb3958a5debcf43a0ccb61bc65f98/banners/Banner_MOBILE_CANVA.svg\')"></div>'
   document.getElementsByClassName(
     'block-slideshow__slide-image--mobile'
   )[3].outerHTML =

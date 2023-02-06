@@ -196,6 +196,15 @@ hr {
     margin-bottom: 64px;
   }
 
+  .mobile-header--stuck {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
   .block-banner__image--mobile {
     background-size: contain;
   }

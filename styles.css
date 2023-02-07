@@ -25,6 +25,14 @@ video {
   margin-top: 64px;
 }
 
+.titulo_video {
+  margin-top: 64px;
+}
+
+.lista_cont_programatico {
+  padding: 26px;
+}
+
 .site-footer__widgets {
   padding: 32px 0px;
 }

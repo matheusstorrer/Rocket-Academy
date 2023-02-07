@@ -221,6 +221,10 @@ hr {
     margin-bottom: 64px;
   }
 
+  .product-gallery__featured .product-image {
+    padding: 0px;
+  }
+
   .mobile-header--stuck {
     position: fixed;
     z-index: 9999;

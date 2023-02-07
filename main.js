@@ -9,7 +9,7 @@ if (window.location.href === 'https://rocketacademyschool.com.br/') {
     '<a href="categoria/especialista-em-excel" class="destaques_icon keychainify-checked"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/2c0cf23781d9feafbf37fabc6f803cd58fd0c85c/icons/excel-app.svg" alt="Cursos de Excel"></a>'
 
   document.getElementsByClassName('block-features__icon')[0].innerHTML =
-    '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/8db6c79b5e7a709e6be5a881bf4b94ec15ccc18a/icons/instagram.svg" style="max-width: 48px; max-height: 48px;">'
+    '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/icons/briefcase.gif" style="max-width: 48px; max-height: 48px;">'
 
   const divider = document.getElementsByClassName('block-header__divider')[0]
   divider.style.background = '#6211c0'

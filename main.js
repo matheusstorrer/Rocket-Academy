@@ -28,18 +28,12 @@ if (window.location.href === 'https://rocketacademyschool.com.br/') {
 
   const icons4 = document.getElementsByClassName('block-features__item')[3]
   icons4.style.backgroundColor = '#ffffff'
-
-  document.getElementsByClassName('block-banner__image')[1].outerHTML =
-    '<div class="block-banner__image block-banner__image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/4ad32c142b68fcd1e6c16574cd44403c5448ac02/banners/Banner_MOBILE_YOUTUBER_Teste_Final.svg\')"></div>'
 }
 
-if (window.innerWidth < 768) {
-  document
-    .getElementsByClassName('mobile-header')[0]
-    .setAttribute('data-sticky-mode', 'alwaysOnTop')
-  document.getElementsByClassName('footer-contacts')[0].outerHTML =
-    '<div class="site-footer__widget footer-contacts"><h5 class="footer-contacts__title">Fale Conosco</h5><div class="footer-contacts__contacts"><div class="address"><h6 class=".footer-subtitle"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/2cc909d6fc672ddcc5167001afa1e7e712d86bdd/icons/location_1.svg" class="contact_icons">Endereço</h6><p class="endereco">Rua Manoel Guimarães Teixeira, 706</p><p>Ortigueira - Paraná</p></div><div class="email"><h6 class=".footer-subtitle"><a href="mailto:contato@rocketacademyschool.com.br"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/fabf6cdcb158774709642141fd8448b52558be08/icons/mail.svg" class="contact_icons">Email</h6></a><p>contato@rocketacademyschool.com.br</p></div><div class="phone"><h6 class=".footer-subtitle"><a href="https://wa.me/5543988034180?text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+cursos+da+Rocket+Academy%21+%F0%9F%9A%80"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/fabf6cdcb158774709642141fd8448b52558be08/icons/whatsapp.svg" class="contact_icons">Whatsapp</h6></a><p>(43) 98803-4180</p></div></div></div><hr>'
-
+if (
+  window.innerWidth < 768 &&
+  window.location.href === 'https://rocketacademyschool.com.br/'
+) {
   document.getElementsByClassName(
     'block-slideshow__slide-image--mobile'
   )[0].outerHTML =
@@ -57,7 +51,24 @@ if (window.innerWidth < 768) {
   )[3].outerHTML =
     '<div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/0bb698eb8deb7d0c2cdd2f8116bdf861bcb1659a/banners/Banner%20ROCKET_MOBILE_INSTITUCIONAL_1.svg\')"></div>'
 
-  // ------------------------------------------------------- //
+  document.getElementsByClassName('block-banner__image')[1].outerHTML =
+    '<div class="block-banner__image block-banner__image--mobile" style="background-image: url(\'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/4ad32c142b68fcd1e6c16574cd44403c5448ac02/banners/Banner_MOBILE_YOUTUBER_Teste_Final.svg\')"></div>'
+}
+
+if (window.innerWidth < 768) {
+  const icon = document.createElement('img')
+  icon.setAttribute(
+    'src',
+    'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/icons/Rocket_LOGO_Mobile.png'
+  )
+  const mobilelogo = document.getElementsByClassName('mobile-header__logo')[0]
+  mobilelogo.insertBefore(icon, mobilelogo.firstChild)
+
+  document
+    .getElementsByClassName('mobile-header')[0]
+    .setAttribute('data-sticky-mode', 'alwaysOnTop')
+  document.getElementsByClassName('footer-contacts')[0].outerHTML =
+    '<div class="site-footer__widget footer-contacts"><h5 class="footer-contacts__title">Fale Conosco</h5><div class="footer-contacts__contacts"><div class="address"><h6 class=".footer-subtitle"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/2cc909d6fc672ddcc5167001afa1e7e712d86bdd/icons/location_1.svg" class="contact_icons">Endereço</h6><p class="endereco">Rua Manoel Guimarães Teixeira, 706</p><p>Ortigueira - Paraná</p></div><div class="email"><h6 class=".footer-subtitle"><a href="mailto:contato@rocketacademyschool.com.br"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/fabf6cdcb158774709642141fd8448b52558be08/icons/mail.svg" class="contact_icons">Email</h6></a><p>contato@rocketacademyschool.com.br</p></div><div class="phone"><h6 class=".footer-subtitle"><a href="https://wa.me/5543988034180?text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+cursos+da+Rocket+Academy%21+%F0%9F%9A%80"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/fabf6cdcb158774709642141fd8448b52558be08/icons/whatsapp.svg" class="contact_icons">Whatsapp</h6></a><p>(43) 98803-4180</p></div></div></div><hr>'
 
   const portal = document.createElement('li')
   portal.setAttribute('class', 'mobile-links__item')
@@ -111,14 +122,6 @@ document.getElementsByClassName('social-links__list')[0].innerHTML =
 
 document.getElementsByClassName('mobile-links')[1].outerHTML =
   '<li class="mobile-links__item"><div class="mobile-links__item-title"><a href="https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional" class="mobile-links__item-link keychainify-checked">Desenvolvimento Profissional</a></div></li><li class="mobile-links__item"><div class="mobile-links__item-title"><a href="https://rocketacademyschool.com.br/categoria/designer-grafico" class="mobile-links__item-link keychainify-checked">Designer Gráfico</a></div></li><li class="mobile-links__item"><div class="mobile-links__item-title"><a href="https://rocketacademyschool.com.br/categoria/engenharia-e-arquitetura" class="mobile-links__item-link keychainify-checked">Engenharia e Arquitetura</a></div></li><li class="mobile-links__item"><div class="mobile-links__item-title"><a href="https://rocketacademyschool.com.br/categoria/especialista-em-excel" class="mobile-links__item-link keychainify-checked">Especialista em Excel</a></div></li><li class="mobile-links__item"><div class="mobile-links__item-title"><a href="https://rocketacademyschool.com.br/categoria/fotografia" class="mobile-links__item-link keychainify-checked">Fotografia</a></div></li><li class="mobile-links__item"><div class="mobile-links__item-title"><a href="https://rocketacademyschool.com.br/categoria/informatica-para-concursos" class="mobile-links__item-link keychainify-checked">Informática para Concursos</a></div></li><li class="mobile-links__item"><div class="mobile-links__item-title"><a href="https://rocketacademyschool.com.br/categoria/marketing-e-vendas" class="mobile-links__item-link keychainify-checked">Marketing e Vendas</a></div></li><li class="mobile-links__item"><div class="mobile-links__item-title"><a href="https://rocketacademyschool.com.br/categoria/programacao-web" class="mobile-links__item-link keychainify-checked">Programação WEB</a></div></li><li class="mobile-links__item"><div class="mobile-links__item-title"><a href="https://rocketacademyschool.com.br/categoria/Youtuber" class="mobile-links__item-link keychainify-checked">Youtuber</a></div></li>'
-
-const icon = document.createElement('img')
-icon.setAttribute(
-  'src',
-  'https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/icons/Rocket_LOGO_Mobile.png'
-)
-const mobilelogo = document.getElementsByClassName('mobile-header__logo')[0]
-mobilelogo.insertBefore(icon, mobilelogo.firstChild)
 
 const wpp = document.getElementsByClassName('site-footer')[0]
 wpp.innerHTML =

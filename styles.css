@@ -29,6 +29,10 @@ video {
   margin-top: 64px;
 }
 
+.titulo_video, .video_curso {
+  font-size: 24px;
+}
+
 .lista_cont_programatico {
   padding: 26px;
 }

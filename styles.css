@@ -21,6 +21,10 @@ video {
   width: 100%;
 }
 
+.nav-links__item-body {
+  font-weight: bold;
+}
+
 .cont_programatico {
   margin-top: 64px;
 }
@@ -272,7 +276,7 @@ hr {
   }
 
   .social-links__list {
-    margin: 0 0 60px 5px;
+    margin: 0 0 60px 2px;
   }
 
   .mobile-links--level--0 > .mobile-links__item {

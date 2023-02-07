@@ -9,7 +9,16 @@ if (window.location.href === 'https://rocketacademyschool.com.br/') {
     '<a href="categoria/especialista-em-excel" class="destaques_icon keychainify-checked"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/2c0cf23781d9feafbf37fabc6f803cd58fd0c85c/icons/excel-app.svg" alt="Cursos de Excel"></a>'
 
   document.getElementsByClassName('block-features__icon')[0].innerHTML =
-    '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/main/icons/briefcase.gif" style="max-width: 48px; max-height: 48px;">'
+    '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/a21048a114427e802ac67ea01ed9e8de5c7c246b/icons/employee-growth.svg" style="max-width: 48px; max-height: 48px;">'
+
+  document.getElementsByClassName('block-features__icon')[1].innerHTML =
+    '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/a21048a114427e802ac67ea01ed9e8de5c7c246b/icons/teaching.svg" style="max-width: 48px; max-height: 48px;">'
+    
+  document.getElementsByClassName('block-features__icon')[2].innerHTML =
+    '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/a21048a114427e802ac67ea01ed9e8de5c7c246b/icons/diploma.svg" style="max-width: 48px; max-height: 48px;">'
+    
+  document.getElementsByClassName('block-features__icon')[2].innerHTML =
+    '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/a21048a114427e802ac67ea01ed9e8de5c7c246b/icons/wallet.svg" style="max-width: 48px; max-height: 48px;">'
 
   const divider = document.getElementsByClassName('block-header__divider')[0]
   divider.style.background = '#6211c0'

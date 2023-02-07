@@ -217,6 +217,11 @@ hr {
  .products-list[data-layout="list"] .product-card {
    box-shadow: 0 1px 2px 0px #6211c0;
  }
+
+ .cont_duration {
+  display: flex;
+  justify-content: space-between;
+ }
 }
 
 @media (max-width: 767px) {

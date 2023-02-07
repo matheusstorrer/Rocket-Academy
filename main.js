@@ -17,7 +17,7 @@ if (window.location.href === 'https://rocketacademyschool.com.br/') {
   document.getElementsByClassName('block-features__icon')[2].innerHTML =
     '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/a21048a114427e802ac67ea01ed9e8de5c7c246b/icons/diploma.svg" style="max-width: 48px; max-height: 48px;">'
     
-  document.getElementsByClassName('block-features__icon')[2].innerHTML =
+  document.getElementsByClassName('block-features__icon')[3].innerHTML =
     '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/a21048a114427e802ac67ea01ed9e8de5c7c246b/icons/wallet.svg" style="max-width: 48px; max-height: 48px;">'
 
   const divider = document.getElementsByClassName('block-header__divider')[0]

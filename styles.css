@@ -234,6 +234,11 @@ hr {
     top: 0;
   }
 
+  .mobilemenu__header {
+    border-bottom: 1px solid #6211c0;
+    box-shadow: -2px 0px 3px #6211c0;
+  }
+
   .mobile-header__panel {
     box-shadow: 0px 0px 12px rgb(0 0 0 / 50%);
     

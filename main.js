@@ -28,6 +28,8 @@ if (window.location.href === 'https://rocketacademyschool.com.br/') {
 
   const icons4 = document.getElementsByClassName('block-features__item')[3]
   icons4.style.backgroundColor = '#ffffff'
+
+  document.getElementsByClassName('block-banner__title')[0].remove()
 }
 
 if (
@@ -133,5 +135,3 @@ document.getElementsByClassName('footer-contacts')[0].outerHTML =
 
 document.getElementsByClassName('menu--layout--classic')[0].innerHTML =
   '<ul class="menu__list"><div class="menu__submenus-container"></div><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/engenharia-e-arquitetura">Engenharia e Arquitetura</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/informatica-para-concursos">Informática para Concursos</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/fotografia">Fotografia</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/programacao-web">Programação WEB</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/youtuber">Youtuber</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional">Desenvolvimento Profissional</a></li></ul>'
-
-document.getElementsByClassName('block-banner__title')[0].remove()

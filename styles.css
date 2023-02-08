@@ -21,6 +21,10 @@ video {
   width: 100%;
 }
 
+.nav-links__item-body {
+  font-weight: bold;
+}
+
 .cont_programatico {
   margin-top: 64px;
 }
@@ -214,6 +218,15 @@ hr {
  .products-list[data-layout="list"] .product-card {
    box-shadow: 0 1px 2px 0px #6211c0;
  }
+
+ .spec_section {
+   padding: 26px;
+ }
+
+ .cont_duration {
+  display: flex;
+  justify-content: space-between;
+ }
 }
 
 @media (max-width: 767px) {
@@ -241,6 +254,7 @@ hr {
   }
 
   .mobile-header__panel {
+    border-bottom: 2px solid white;
     box-shadow: 0px 0px 12px rgb(0 0 0 / 50%);
     
   }
@@ -272,7 +286,7 @@ hr {
   }
 
   .social-links__list {
-    margin: 0 0 60px 10px;
+    margin: 0 0 60px 2px;
   }
 
   .mobile-links--level--0 > .mobile-links__item {

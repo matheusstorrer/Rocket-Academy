@@ -9,7 +9,16 @@ if (window.location.href === 'https://rocketacademyschool.com.br/') {
     '<a href="categoria/especialista-em-excel" class="destaques_icon keychainify-checked"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/2c0cf23781d9feafbf37fabc6f803cd58fd0c85c/icons/excel-app.svg" alt="Cursos de Excel"></a>'
 
   document.getElementsByClassName('block-features__icon')[0].innerHTML =
-    '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/8db6c79b5e7a709e6be5a881bf4b94ec15ccc18a/icons/instagram.svg" style="max-width: 48px; max-height: 48px;">'
+    '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/a21048a114427e802ac67ea01ed9e8de5c7c246b/icons/employee-growth.svg" style="max-width: 48px; max-height: 48px;">'
+
+  document.getElementsByClassName('block-features__icon')[1].innerHTML =
+    '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/a21048a114427e802ac67ea01ed9e8de5c7c246b/icons/teaching.svg" style="max-width: 48px; max-height: 48px;">'
+    
+  document.getElementsByClassName('block-features__icon')[2].innerHTML =
+    '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/a21048a114427e802ac67ea01ed9e8de5c7c246b/icons/diploma.svg" style="max-width: 48px; max-height: 48px;">'
+    
+  document.getElementsByClassName('block-features__icon')[3].innerHTML =
+    '<img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/a21048a114427e802ac67ea01ed9e8de5c7c246b/icons/wallet.svg" style="max-width: 48px; max-height: 48px;">'
 
   const divider = document.getElementsByClassName('block-header__divider')[0]
   divider.style.background = '#6211c0'
@@ -90,6 +99,11 @@ if (window.innerWidth < 768) {
   portalmobile.appendChild(portal)
 }
 
+if (window.location.href === 'https://rocketacademyschool.com.br/curso/canva') {
+  document.getElementsByClassName('product-tabs')[0].innerHTML =
+    '<section class="section_video_curso"><h1 class="titulo_video">Assista um pouco da nossa aula de Canva</h1><div class="video_curso"><video src="https://example.com/video.mp4" controls></video></div><h1 class="cont_programatico">Conteúdo Programático</h1><div class="cont_duration"><ul class="lista_cont_programatico"><li>Criando uma conta e conhecendo o Canva</li><li>Criando um design simples</li><li>Layout personalizado</li><li>Inserindo imagens e praticando edições</li><li>Guia de elementos</li>    <li>Adicionando e formatando textos</li>    <li>Incluindo e configurando áudio e vídeo</li>    <li>Princípios básicos do design</li>    <li>Criando um logotipo</li>    <li>Cartão de visitas digital</li>    <li>Website</li>    <li>Posts animados e mídias com animação</li>    <li>Criando uma capa para o Facebook</li>    <li>Artes para o YouTube</li>    <li>Artes para o Instagram: Post, Rells e Stories</li>    <li>Criando uma apresentação completa</li>    <li>Criando gráficos</li>    <li>Gravando e compartilhando a apresentação</li>    <li>Ebooks profissionais</li></ul><div class="spec__section">  <div class="spec__row">      <div class="spec__name">Quantidade de aulas</div>      <div class="spec__value">13 aulas</div>  </div>  <div class="spec__row">      <div class="spec__name">Horas de videoaula</div>      <div class="spec__value">2 horas</div>  </div>  <div class="spec__row">      <div class="spec__name">Horas em projetos</div>      <div class="spec__value">5 horas</div>  </div></div></div></section>'
+}
+
 document.getElementsByClassName('nav-links__item-body')[3].innerText =
   'Todas as Categorias  ↓'
 
@@ -136,7 +150,4 @@ document.getElementsByClassName('footer-contacts')[0].outerHTML =
 document.getElementsByClassName('menu--layout--classic')[0].innerHTML =
   '<ul class="menu__list"><div class="menu__submenus-container"></div><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/engenharia-e-arquitetura">Engenharia e Arquitetura</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/informatica-para-concursos">Informática para Concursos</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/fotografia">Fotografia</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/programacao-web">Programação WEB</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/youtuber">Youtuber</a></li><li class="menu__item"><div class="menu__item-submenu-offset"></div><a class="menu__item-link keychainify-checked" href="https://rocketacademyschool.com.br/categoria/desenvolvimento-profissional">Desenvolvimento Profissional</a></li></ul>'
 
-if (window.location.href === 'https://rocketacademyschool.com.br/curso/canva') {
-  document.getElementsByClassName('product-tabs')[0].innerHTML =
-    '<section class="section_video_curso"><h1 class="titulo_video">Assista um pouco da nossa aula de Canva</h1><div class="video_curso"><video src="https://example.com/video.mp4" controls></video></div><h1 class="cont_programatico">Conteúdo Programático</h1><ul class="lista_cont_programatico"><li>Criando uma conta e conhecendo o Canva</li><li>Criando um design simples</li><li>Layout personalizado</li><li>Inserindo imagens e praticando edições</li><li>Guia de elementos</li>    <li>Adicionando e formatando textos</li>    <li>Incluindo e configurando áudio e vídeo</li>    <li>Princípios básicos do design</li>    <li>Criando um logotipo</li>    <li>Cartão de visitas digital</li>    <li>Website</li>    <li>Posts animados e mídias com animação</li>    <li>Criando uma capa para o Facebook</li>    <li>Artes para o YouTube</li>    <li>Artes para o Instagram: Post, Rells e Stories</li>    <li>Criando uma apresentação completa</li>    <li>Criando gráficos</li>    <li>Gravando e compartilhando a apresentação</li>    <li>Ebooks profissionais</li></ul></section>'
-}
+

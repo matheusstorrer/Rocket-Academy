@@ -98,6 +98,7 @@ if (window.innerWidth < 768) {
   portaldiv.appendChild(linkportal)
   portalmobile.appendChild(portal)
 }
+// VIDEOS INDIVIDUAIS DE CADA CURSO //
 
 if (window.location.href === 'https://rocketacademyschool.com.br/curso/canva') {
   document.getElementsByClassName('product-tabs')[0].innerHTML =
@@ -111,6 +112,16 @@ if (
   document.getElementsByClassName('product-tabs')[0].innerHTML =
     '<section class="section_video_curso"><h1 class="titulo_video">Conheça a nossa primeira aula de Empreendedorismo</h1> <div class="video_curso"><video src="https://example.com/video.mp4" controls></video> </div><h1 class="cont_programatico">Conteúdo Programático</h1> <div class="cont_duration"> <ul class="lista_cont_programatico"> <li>Introdução ao empreendedorismo</li> <li>Principais tipos de empreendedorismo</li> <li>Características do empreendedor</li> <li>Pesquisa de mercado</li> <li>Planejando para o sucesso</li> <li>Plano de negócios</li> <li>Identificando uma oportunidade de negócio</li> <li>Passos para abertura de uma empresa</li> <li>Motivação ao empreendedor</li> <li>Ferramentas úteis para o empreendedor</li> <li>Marketing no empreendedorismo</li> <li>Gestão estratégica</li> <li>Liderança</li> <li>Controle financeiro</li> <li>Negociação</li> <li>Como vender seu produto</li> <li>Empreendedorismo 4.0</li> <li>A internet e o empreendedorismo</li> <li>Assessoria para o negócio</li> <li>Empreendedorismo no Brasil</li> </ul> <div class="spec__section"> <div class="spec__row"> <div class="spec__name">Quantidade de aulas </div> <div class="spec__value">20 aulas </div> </div> <div class="spec__row"> <div class="spec__name">Horas de videoaula </div> <div class="spec__value">4 horas </div> </div> <div class="spec__row"> <div class="spec__name">Horas em projetos </div> <div class="spec__value">4 horas </div> </div> </div> </div></section>'
 }
+
+if (
+  window.location.href ===
+  'https://rocketacademyschool.com.br/curso/excelencia-no-atendimento-ao-cliente'
+) {
+  document.getElementsByClassName('product-tabs')[0].innerHTML =
+    '<section class="section_video_curso"><h1 class="titulo_video">Conheça a nossa primeira aula</h1> <div class="video_curso"><video src="https://example.com/video.mp4" controls></video> </div><h1 class="cont_programatico">Conteúdo Programático</h1> <div class="cont_duration"> <ul class="lista_cont_programatico"> <li>Mundo Em Mudança</li> <li>Características Do Mundo Atual E Seu Impacto Nas Relações Comerciais</li> <li>Atendimento Ao Cliente: O Que Faz A Diferença?</li> <li>Ideal De Servir</li> <li>4 Fases Da Excelência No Atendimento: Entender O Cliente</li> <li>Entender O Cliente: Tipos De Cliente</li> <li>Por Que As Empresas Perdem Clientes?</li> <li>4 Fases Da Excelência No Atendimento: Atender O Cliente</li> <li>Todo Atendimento É Uma Oportunidade</li> <li>Como Os Clientes Querem Ser Tratados?</li> <li>O Poder Da Imagem Profissional</li> <li>4 Fases Da Excelência No Atendimento: Satisfazer O Cliente</li> <li>4 Fases Da Excelência No Atendimento: Encantar O Cliente</li> </ul> <div class="spec__section"> <div class="spec__row"> <div class="spec__name">Quantidade de aulas </div> <div class="spec__value">13 aulas </div> </div> <div class="spec__row"> <div class="spec__name">Horas de videoaula </div> <div class="spec__value">2 horas </div> </div> <div class="spec__row"> <div class="spec__name">Horas em projetos </div> <div class="spec__value">5 horas </div> </div> </div> </div></section>'
+}
+
+// END DOS VIDEOS INDIVIDUAIS DE CADA CURSO //
 
 document.getElementsByClassName('nav-links__item-body')[3].innerText =
   'Todas as Categorias  ↓'

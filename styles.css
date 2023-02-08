@@ -233,7 +233,11 @@ hr {
  }
 
  .product-card__info {
-  padding-right: 40px
+  padding-right: 40px;
+ }
+
+ .product-card__image {
+  width: 170px;
  }
 
  .products-list {

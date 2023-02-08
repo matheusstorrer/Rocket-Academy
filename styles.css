@@ -47,7 +47,7 @@ video {
 
 .block-features--layout--boxed .block-features__item {
   box-shadow: 3px 3px 4px #6211c0;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 hr {
@@ -77,6 +77,7 @@ hr {
 
 .product-card::before {
   box-shadow: 0 1px 6px 0px #6211c0;
+  border-radius: 10px;
 }
 
 .product__prices {

@@ -117,6 +117,15 @@ if (
   document.getElementsByClassName('page-header__title')[0].innerHTML =
     '<h1>Engenharia e Arquitetura</h1>'
 }
+
+if (
+  window.location.href ===
+  'https://rocketacademyschool.com.br/categoria/informatica-para-concursos'
+) {
+  document.getElementsByClassName('page-header__title')[0].innerHTML =
+    '<h1>Informática para Concursos</h1>'
+}
+
 // END CATEGORIAS
 
 // VIDEOS INDIVIDUAIS DE CADA CURSO //
@@ -236,6 +245,16 @@ if (
   document.getElementsByClassName('product-tabs')[0].innerHTML =
     '<section class="section_video_curso"> <h1 class="titulo_video">Conheça a nossa primeira aula de SketchUp 2020 - Avançado</h1> <div class="video_curso"> <iframe src="https://www.youtube.com/embed/TfyewHOqyfY" title="Aula demonstrativa do curso de Vendas - Rocket Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div> <h1 class="cont_programatico">Conteúdo Programático</h1> <div class="cont_duration"> <ul class="lista_cont_programatico"> <li>Modelagem de terreno</li> <li>Animações</li> <li>Photomatching</li> <li>SketchUp Layout e documentação</li> <li>Modelagem de móveis</li> <li>Preparação de render</li> </ul> <div class="spec__section"> <div class="spec__row"> <div class="spec__name">Quantidade de aulas </div> <div class="spec__value">7 aulas </div> </div> <div class="spec__row"> <div class="spec__name">Horas de videoaula </div> <div class="spec__value">2 horas </div> </div> <div class="spec__row"> <div class="spec__name">Horas em projetos </div> <div class="spec__value">6 horas </div> </div> </div> </div></section>'
 }
+
+// INFORMATICA PARA CONCURSOS
+if (
+  window.location.href ===
+  'https://rocketacademyschool.com.br/curso/google-workspace'
+) {
+  document.getElementsByClassName('product-tabs')[0].innerHTML =
+    '<section class="section_video_curso"> <h1 class="titulo_video">Conheça a nossa primeira aula de Google Workspace</h1> <div class="video_curso"> <iframe src="https://www.youtube.com/embed/TfyewHOqyfY" title="Aula demonstrativa do curso de Vendas - Rocket Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div> <h1 class="cont_programatico">Conteúdo Programático</h1> <div class="cont_duration"> <ul class="lista_cont_programatico"> <li>Google Drive <ul> <li>Criação de conta e apresentação da ferramenta</li> <li>Realizar uploads</li> <li>Gerenciamento de arquivos em nuvem</li> <li>Compartilhamento entre pessoas</li> <li>Aplicativo para desktop e dispositivos móveis</li> </ul> </li> <li>Documentos Google <ul> <li>Conhecendo a ferramenta</li> <li>Configuração da página</li> <li>Formatando o documento</li> <li>Inserindo itens</li> <li>Avery label merge</li> </ul> </li> <li>Planilhas Google <ul> <li>Conhecendo a ferramenta</li> <li>Autopreenchimento e ajuste de linhas e colunas</li> <li>Formatando uma planilha</li> <li>Aplicação de filtros</li> <li>Operações básicas</li> <li>Funções básicas</li> <li>Inserindo gráficos</li> <li>Insights instantâneos e formulários</li> </ul> </li> <li>Apresentações Google <ul> <li>Conhecendo a ferramenta</li> <li>Criação e manipulação de slides</li> <li>Formatação de slides</li> <li>Inserindo itens</li> <li>Transição de slides e animações de objetos</li> <li>Apresentações no hangouts</li> </ul> </li> </ul> <div class="spec__section"> <div class="spec__row"> <div class="spec__name">Quantidade de aulas </div> <div class="spec__value">28 aulas </div> </div> <div class="spec__row"> <div class="spec__name">Horas de videoaula </div> <div class="spec__value">3 horas </div> </div> <div class="spec__row"> <div class="spec__name">Horas em projetos </div> <div class="spec__value">10 horas </div> </div> </div> </div></section>'
+}
+
 // END DOS VIDEOS INDIVIDUAIS DE CADA CURSO //
 
 document.getElementsByClassName('nav-links__item-body')[3].innerText =

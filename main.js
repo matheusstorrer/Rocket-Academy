@@ -265,7 +265,7 @@ if (
 
 if (
   window.location.href ===
-  'https://rocketacademyschool.com.br/curso/informatica-para-adultos'
+  'https://rocketacademyschool.com.br/curso/internet'
 ) {
   document.getElementsByClassName('product-tabs')[0].innerHTML =
     '<section class="section_video_curso"> <h1 class="titulo_video">Conheça a nossa primeira aula de Internet</h1> <div class="video_curso"> <iframe src="https://www.youtube.com/embed/TfyewHOqyfY" title="Aula demonstrativa do curso de Vendas - Rocket Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div> <h1 class="cont_programatico">Conteúdo Programático</h1> <div class="cont_duration"> <ul class="lista_cont_programatico"> <li>Conhecendo o navegador</li> <li>Utilizando mecanismos de busca</li> <li>Pesquisar imagens</li> <li>Pesquisar músicas</li> <li>Utilizar o Youtube</li> <li>Utilizar a Wikipedia (Enciclopédia Online)</li> <li>Procurar e localizar CEP</li> <li>Fazer downloads e salvar arquivos</li> <li>Criar um email do google</li> <li>Enviar e receber e-mails</li> </ul> <div class="spec__section"> <div class="spec__row"> <div class="spec__name">Quantidade de aulas </div> <div class="spec__value">24 aulas </div> </div> <div class="spec__row"> <div class="spec__name">Horas de videoaula </div> <div class="spec__value">2 horas </div> </div> <div class="spec__row"> <div class="spec__name">Horas em projetos </div> <div class="spec__value">10 horas </div> </div> </div> </div></section>'

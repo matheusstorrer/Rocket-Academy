@@ -216,6 +216,10 @@ hr {
    max-width: 100%;
  }
 
+ .products-list[data-layout="list"] .product-card .product-card__image {
+  width: 160px;
+ }
+
  .block-banner {
   margin-top: 90px;
 }

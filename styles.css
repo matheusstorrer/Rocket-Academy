@@ -70,6 +70,10 @@ hr {
   color: #6211c0;
 }
 
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active {
+  border-color: #461c77;
+  background: #461c77;
+}
 
 .fab::before {
   color: white;

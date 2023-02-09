@@ -259,6 +259,11 @@ hr {
     padding: 0px;
   }
 
+
+  .product-card::before {
+    border-radius: 10px;
+  }
+
   .mobile-header--stuck {
     position: fixed;
     z-index: 9999;

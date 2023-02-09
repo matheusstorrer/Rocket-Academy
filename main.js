@@ -101,8 +101,16 @@ if (window.innerWidth < 768) {
   portaldiv.appendChild(linkportal)
   portalmobile.appendChild(portal)
 }
-// VIDEOS INDIVIDUAIS DE CADA CURSO //
 
+if (
+  window.location.href ===
+  'https://rocketacademyschool.com.br/categoria/marketing-e-vendas'
+) {
+  document.getElementsByClassName('page-header__title')[0].innerHTML =
+    '<h1>Marketing e Vendas</h1>'
+}
+
+// VIDEOS INDIVIDUAIS DE CADA CURSO //
 if (window.location.href === 'https://rocketacademyschool.com.br/curso/canva') {
   document.getElementsByClassName('product-tabs')[0].innerHTML =
     '<section class="section_video_curso"><h1 class="titulo_video">Conheça a nossa primeira aula de Canva</h1><div class="video_curso"><video src="https://example.com/video.mp4" controls></video></div><h1 class="cont_programatico">Conteúdo Programático</h1><div class="cont_duration"><ul class="lista_cont_programatico"><li>Criando uma conta e conhecendo o Canva</li><li>Criando um design simples</li><li>Layout personalizado</li><li>Inserindo imagens e praticando edições</li><li>Guia de elementos</li>    <li>Adicionando e formatando textos</li>    <li>Incluindo e configurando áudio e vídeo</li>    <li>Princípios básicos do design</li>    <li>Criando um logotipo</li>    <li>Cartão de visitas digital</li>    <li>Website</li>    <li>Posts animados e mídias com animação</li>    <li>Criando uma capa para o Facebook</li>    <li>Artes para o YouTube</li>    <li>Artes para o Instagram: Post, Rells e Stories</li>    <li>Criando uma apresentação completa</li>    <li>Criando gráficos</li>    <li>Gravando e compartilhando a apresentação</li>    <li>Ebooks profissionais</li></ul><div class="spec__section">  <div class="spec__row">      <div class="spec__name">Quantidade de aulas</div>      <div class="spec__value">20 aulas</div>  </div>  <div class="spec__row">      <div class="spec__name">Horas de videoaula</div>      <div class="spec__value">4 horas</div>  </div>  <div class="spec__row">      <div class="spec__name">Horas em projetos</div>      <div class="spec__value">16 horas</div>  </div></div></div></section>'
@@ -161,7 +169,6 @@ if (
   document.getElementsByClassName('product-tabs')[0].innerHTML =
     '<section class="section_video_curso"><h1 class="titulo_video">Conheça a nossa primeira aula de Vendas</h1> <div class="video_curso"><video src="https://example.com/video.mp4" controls></video> </div><h1 class="cont_programatico">Conteúdo Programático</h1> <div class="cont_duration"> <li>O que é ser vendedor?</li> <li>Tipos de vendedores</li> <li>Negociação</li> <li>Características de vendedores</li> <li>Inteligência emocional</li> <li>Negociação ganha-ganha</li> <li>Honestidade, simpatia e empatia</li> <li>Principais erros dos vendedores</li> <li>Zona de conforto</li> <li>Planejamento de vendas</li> <li>Desenvolvimento do plano de vendas</li> <li>Campanhas e fidelização dos clientes</li> <li>Importância dos canais de vendas</li> <li>Vendas por telefone e e-mail</li> <li>Vendas com WhatsApp</li> <li>Redes sociais e venda porta a porta</li> <li>Processos de venda</li> <li>Coaching de vendas</li> <li>Perguntas que vendem</li> <li>O quadrante das vendas</li> </ul> <div class="spec__section"> <div class="spec__row"> <div class="spec__name">Quantidade de aulas </div> <div class="spec__value">32 aulas </div> </div> <div class="spec__row"> <div class="spec__name">Horas de videoaula </div> <div class="spec__value">4 horas </div> </div> <div class="spec__row"> <div class="spec__name">Horas em projetos </div> <div class="spec__value">8 horas </div> </div> </div> </div></section>'
 }
-
 // END DOS VIDEOS INDIVIDUAIS DE CADA CURSO //
 
 document.getElementsByClassName('nav-links__item-body')[3].innerText =

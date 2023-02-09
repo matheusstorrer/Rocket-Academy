@@ -101,7 +101,7 @@ if (window.innerWidth < 768) {
   portaldiv.appendChild(linkportal)
   portalmobile.appendChild(portal)
 }
-
+// CATEGORIAS
 if (
   window.location.href ===
   'https://rocketacademyschool.com.br/categoria/marketing-e-vendas'
@@ -109,6 +109,15 @@ if (
   document.getElementsByClassName('page-header__title')[0].innerHTML =
     '<h1>Marketing e Vendas</h1>'
 }
+
+if (
+  window.location.href ===
+  'https://rocketacademyschool.com.br/categoria/engenharia-e-arquitetura'
+) {
+  document.getElementsByClassName('page-header__title')[0].innerHTML =
+    '<h1>Engenharia e Arquitetura</h1>'
+}
+// END CATEGORIAS
 
 // VIDEOS INDIVIDUAIS DE CADA CURSO //
 // MARKETING E VENDAS

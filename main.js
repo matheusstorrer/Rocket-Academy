@@ -219,6 +219,14 @@ if (
   document.getElementsByClassName('product-tabs')[0].innerHTML =
     '<section class="section_video_curso"> <h1 class="titulo_video">Conheça a nossa primeira aula de SketchUp 2020</h1> <div class="video_curso"> <iframe src="https://www.youtube.com/embed/TfyewHOqyfY" title="Aula demonstrativa do curso de Vendas - Rocket Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div> <h1 class="cont_programatico">Conteúdo Programático</h1> <div class="cont_duration"> <ul class="lista_cont_programatico"> <li>Conhecendo o SketchUP</li> <li>Desenhos básicos</li> <li>Ferramentas</li> <li>Projeto básico</li> <li>Ferramentas de edição</li> <li>Edição básica</li> <li>Materiais e texturas</li> <li>Casa e mobília</li> <li>Organizando o projeto</li> <li>Apresentando um projeto</li> </ul> <div class="spec__section"> <div class="spec__row"> <div class="spec__name">Quantidade de aulas </div> <div class="spec__value">11 aulas </div> </div> <div class="spec__row"> <div class="spec__name">Horas de videoaula </div> <div class="spec__value">1 horas </div> </div> <div class="spec__row"> <div class="spec__name">Horas em projetos </div> <div class="spec__value">10 horas </div> </div> </div> </div></section>'
 }
+
+if (
+  window.location.href ===
+  'https://rocketacademyschool.com.br/curso/sketchup-2020-avancado'
+) {
+  document.getElementsByClassName('product-tabs')[0].innerHTML =
+    '<section class="section_video_curso"> <h1 class="titulo_video">Conheça a nossa primeira aula de SketchUp 2020 - Avançado</h1> <div class="video_curso"> <iframe src="https://www.youtube.com/embed/TfyewHOqyfY" title="Aula demonstrativa do curso de Vendas - Rocket Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div> <h1 class="cont_programatico">Conteúdo Programático</h1> <div class="cont_duration"> <ul class="lista_cont_programatico"> <li>Modelagem de terreno</li> <li>Animações</li> <li>Photomatching</li> <li>SketchUp Layout e documentação</li> <li>Modelagem de móveis</li> <li>Preparação de render</li> </ul> <div class="spec__section"> <div class="spec__row"> <div class="spec__name">Quantidade de aulas </div> <div class="spec__value">7 aulas </div> </div> <div class="spec__row"> <div class="spec__name">Horas de videoaula </div> <div class="spec__value">2 horas </div> </div> <div class="spec__row"> <div class="spec__name">Horas em projetos </div> <div class="spec__value">6 horas </div> </div> </div> </div></section>'
+}
 // END DOS VIDEOS INDIVIDUAIS DE CADA CURSO //
 
 document.getElementsByClassName('nav-links__item-body')[3].innerText =

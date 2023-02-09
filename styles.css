@@ -144,6 +144,12 @@ hr {
     border-radius: 6px;
 }
 
+.btn-secondary.focus, .btn-secondary:focus, .btn-secondary:hover, .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active {
+    border-color: #461c77;
+    background: #461c77;
+}
+
+
 .midia_icons {
   border-radius: 12px;
   width: 50px;

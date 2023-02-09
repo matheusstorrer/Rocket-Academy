@@ -79,10 +79,6 @@ hr {
   background: #6211c0
 }
 
-.block-banner {
-  margin-top: 90px;
-}
-
 .product-card::before {
   box-shadow: 0 1px 6px 0px #6211c0;
   border-radius: 10px;
@@ -219,6 +215,11 @@ hr {
  .col-lg-4 {
    max-width: 100%;
  }
+
+ .block-banner {
+  margin-top: 90px;
+}
+
  .products-list[data-layout="list"] .product-card {
    box-shadow: 0 1px 2px 0px #6211c0;
    border-radius: 10px;

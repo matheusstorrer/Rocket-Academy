@@ -251,6 +251,7 @@ hr {
 }
 @media (max-width: 419px) {
   .block-products-carousel[data-layout^="grid-"][data-mobile-grid-columns="1"] .product-card::before {
+    border-radius: 10px;
   }
 }
 @media (max-width: 767px) {

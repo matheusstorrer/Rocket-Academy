@@ -1,4 +1,7 @@
-if (window.location.href === 'https://rocketacademyschool.com.br/') {
+if (
+  window.location.href === 'https://rocketacademyschool.com.br/' ||
+  window.location.href.includes('https://rocketacademyschool.com.br/#')
+) {
   document.getElementsByClassName('category-card__image')[2].innerHTML =
     '<a href="categoria/fotografia" class="destaques_icon keychainify-checked"><img src="https://raw.githubusercontent.com/matheusstorrer/Rocket-Academy/cbe686a79d319d75302fb9c0571efe5b28213408/icons/camera.svg" alt="Cursos de Fotografia"></a>'
 

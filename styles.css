@@ -253,7 +253,6 @@ hr {
   .block-products-carousel[data-layout^="grid-"][data-mobile-grid-columns="1"] .product-card::before {
   }
 }
-
 @media (max-width: 767px) {
   .products-view__list {
     margin-top: 64px;
@@ -367,7 +366,6 @@ hr {
     max-width: 24px;
   }
 }
-
 @media (max-width: 340px) {
   .mobile-header__logo span {
     font-size: 13px;
@@ -381,7 +379,6 @@ hr {
     margin-top: 18rem;
   }
 }
-
 @media (hover: hover) {
  .totop__button:hover{
     transform: translateY(-10px);

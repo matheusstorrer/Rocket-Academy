@@ -187,6 +187,14 @@ if (
   document.getElementsByClassName('product-tabs')[0].innerHTML =
     '<section class="section_video_curso"> <h1 class="titulo_video">Conheça a nossa primeira aula de AutoCAD 2020 - Mecânica</h1> <div class="video_curso"><video src="https://example.com/video.mp4" controls></video> </div> <h1 class="cont_programatico">Conteúdo Programático</h1> <div class="cont_duration"> <ul> <li>Ajustes e manipulação de círculo e retângulo</li> <li>Perspectiva isométrica</li> <li>Projeção ortogonal</li> <li>Casos especiais de cotagem e projeção</li> <li>Cortes</li> <li>Layout e impressão</li> </ul> <div class="spec__section"> <div class="spec__row"> <div class="spec__name">Quantidade de aulas </div> <div class="spec__value">10 aulas </div> </div> <div class="spec__row"> <div class="spec__name">Horas de videoaula </div> <div class="spec__value">9 horas </div> </div> <div class="spec__row"> <div class="spec__name">Horas em projetos </div> <div class="spec__value">31 horas </div> </div> </div> </div></section>'
 }
+
+if (
+  window.location.href ===
+  'https://rocketacademyschool.com.br/curso/autocad-2020-projeto-civil'
+) {
+  document.getElementsByClassName('product-tabs')[0].innerHTML =
+    '<section class="section_video_curso"> <h1 class="titulo_video">Conheça a nossa primeira aula de AutoCAD 2020 - Mecânica</h1> <div class="video_curso"><video src="https://example.com/video.mp4" controls></video> </div> <h1 class="cont_programatico">Conteúdo Programático</h1> <div class="cont_duration"> <ul> <li>Ajustes e manipulação de círculo e retângulo</li> <li>Perspectiva isométrica</li> <li>Projeção ortogonal</li> <li>Casos especiais de cotagem e projeção</li> <li>Cortes</li> <li>Layout e impressão</li> </ul> <div class="spec__section"> <div class="spec__row"> <div class="spec__name">Quantidade de aulas </div> <div class="spec__value">10 aulas </div> </div> <div class="spec__row"> <div class="spec__name">Horas de videoaula </div> <div class="spec__value">4 horas </div> </div> <div class="spec__row"> <div class="spec__name">Horas em projetos </div> <div class="spec__value">24 horas </div> </div> </div> </div></section>'
+}
 // END DOS VIDEOS INDIVIDUAIS DE CADA CURSO //
 
 document.getElementsByClassName('nav-links__item-body')[3].innerText =

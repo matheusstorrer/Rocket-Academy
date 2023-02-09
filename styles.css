@@ -249,6 +249,10 @@ hr {
   margin-bottom: 2%;
   }
 }
+@media (max-width: 419px) {
+  .block-products-carousel[data-layout^="grid-"][data-mobile-grid-columns="1"] .product-card::before {
+  }
+}
 
 @media (max-width: 767px) {
   .products-view__list {

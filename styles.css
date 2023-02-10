@@ -436,6 +436,10 @@ hr {
   .footer-newsletter, .site-footer__widget {
     margin-left: 100px;
   }
+
+  .block-slideshow--layout--full .block-slideshow__slide-image--desktop {
+    background-size: contain;
+  }
 }
 
 @media (hover: hover) {

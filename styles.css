@@ -241,6 +241,17 @@ hr {
     margin-bottom: 0px;
 }
 
+.product-card__info {
+  padding-right: 40px;
+}
+
+.products-list {
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
 @media (min-width: 992px) {
  .col-lg-4 {
    max-width: 100%;
@@ -268,16 +279,6 @@ hr {
   justify-content: space-between;
  }
 
- .product-card__info {
-  padding-right: 40px;
- }
-
- .products-list {
-  width: 48%;
-  float: left;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  }
 }
 @media (max-width: 767px) {
   .products-view__list {

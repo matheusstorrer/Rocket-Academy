@@ -307,7 +307,7 @@ if (
 }
 
 // END DOS VIDEOS INDIVIDUAIS DE CADA CURSO //
-
+document.getElementsByClassName('nav-links__item-link')[3].removeAttribute
 document.getElementsByClassName('nav-links__item-body')[3].innerText =
   'Todas as Categorias  ↓'
 

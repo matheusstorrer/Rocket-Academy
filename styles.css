@@ -161,7 +161,7 @@ hr {
 }
 
 .block-banner__image {
-  background-size: cover;
+  background-size: contain;
 }
 
 .contact_icons {

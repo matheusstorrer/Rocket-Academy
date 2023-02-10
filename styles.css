@@ -49,6 +49,10 @@ video {
   color: white;
 }
 
+.block-slideshow--layout--full .block-slideshow__slide-image--desktop {
+  background-size: contain;
+}
+
 .block-features--layout--boxed .block-features__item {
   box-shadow: 2px 2px 5px #6211c0;
   border-radius: 10px;
@@ -419,6 +423,12 @@ hr {
 
   .block-slideshow__slide-button {
     margin-top: 18rem;
+  }
+}
+/* TABLET */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .block-slideshow--layout--full .block-slideshow__slide-image--desktop {
+    background-size: contain;
   }
 }
 @media (hover: hover) {

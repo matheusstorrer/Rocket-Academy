@@ -49,10 +49,6 @@ video {
   color: white;
 }
 
-.block-slideshow--layout--full .block-slideshow__slide-image--desktop {
-  background-size: contain;
-}
-
 .block-features--layout--boxed .block-features__item {
   box-shadow: 2px 2px 5px #6211c0;
   border-radius: 10px;

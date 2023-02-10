@@ -431,6 +431,13 @@ hr {
     background-size: contain;
   }
 }
+
+@media (min-width: 760) and (max-width: 1030px) {
+  .footer-newsletter, .site-footer__widget {
+    margin-left: 100px;
+  }
+}
+
 @media (hover: hover) {
  .totop__button:hover{
     transform: translateY(-10px);

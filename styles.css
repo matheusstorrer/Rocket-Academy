@@ -156,6 +156,10 @@ hr {
   height: 50px;
 }
 
+.block-banner__image {
+  background-size: contain;
+}
+
 .contact_icons {
   width: 24px;
   margin-right: 10px;

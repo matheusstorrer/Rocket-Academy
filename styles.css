@@ -161,7 +161,7 @@ hr {
 }
 
 .block-banner__image {
-  background-size: contain;
+  background-size: cover;
 }
 
 .contact_icons {
@@ -428,7 +428,7 @@ hr {
 /* TABLET */
 @media (min-width: 992px) and (max-width: 1199px) {
   .block-slideshow--layout--full .block-slideshow__slide-image--desktop {
-    background-size: contain;
+    background-size: cover;
   }
 }
 
@@ -438,7 +438,7 @@ hr {
   }
 
   .block-slideshow--layout--full .block-slideshow__slide-image--desktop {
-    background-size: contain;
+    background-size: cover;
   }
 }
 

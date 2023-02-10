@@ -430,6 +430,10 @@ hr {
   .block-slideshow--layout--full .block-slideshow__slide-image--desktop {
     background-size: cover;
   }
+
+  .footer-newsletter, .site-footer__widget {
+    margin-left: 200px;
+  }
 }
 
 @media (min-width: 760) and (max-width: 1030px) {

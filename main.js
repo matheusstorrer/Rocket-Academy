@@ -307,9 +307,8 @@ if (
 }
 
 // END DOS VIDEOS INDIVIDUAIS DE CADA CURSO //
-document.getElementsByClassName('nav-links__item-link')[3].removeAttribute
-document.getElementsByClassName('nav-links__item-body')[3].innerText =
-  'Todas as Categorias  ↓'
+document.getElementsByClassName('nav-links__item-link')[3].outerHTML =
+  '<div class="nav-links__item-link keychainify-checked"><div class="nav-links__item-body">Todas as Categorias  ↓</div></div>'
 
 const cadastro = document.getElementsByClassName('topbar__item')[3]
 document.getElementsByClassName('topbar__row')[0].removeChild(cadastro)

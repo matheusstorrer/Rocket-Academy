@@ -4,6 +4,13 @@ body {
   visibility: hidden;
 }
 
+container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .license_cgd {
   font-size: 10px;
 }
@@ -250,10 +257,9 @@ hr {
 }
 
 .products-list {
+  display: flex;
   width: 48%;
-  float: left;
-  margin-right: 2%;
-  margin-bottom: 2%;
+
 }
 
 @media (min-width: 992px) {
@@ -313,16 +319,7 @@ hr {
   .product-card::before {
     border-radius: 10px;
   }
-
-  .mobile-header--stuck {
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-  }
-
+  
   .mobilemenu__header {
     border-bottom: 1px solid #6211c0;
     box-shadow: -2px 0px 3px #6211c0;

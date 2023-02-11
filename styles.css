@@ -285,6 +285,10 @@ hr {
     margin-bottom: 35px;
   }
 
+  .product-image__img {
+    border-radius: 10px;
+  }
+
   .products-list[data-layout="list"] .product-card .product-card__actions {
     padding: 10px;
   }

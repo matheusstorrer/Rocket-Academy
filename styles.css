@@ -4,6 +4,10 @@ body {
   visibility: hidden;
 }
 
+.license_cgd {
+  font-size: 12px;
+}
+
 .topbar-link b {
   border-radius: 5px;
   color: white;

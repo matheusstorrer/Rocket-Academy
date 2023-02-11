@@ -8,6 +8,10 @@ body {
   font-size: 10px;
 }
 
+.product-card__name a {
+  font-size: 15px;
+}
+
 .topbar-link b {
   border-radius: 5px;
   color: white;

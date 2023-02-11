@@ -251,7 +251,8 @@ hr {
 
 .products-list {
   width: 48%;
-
+  float: left;
+  margin: 1%;
 }
 
 @media (min-width: 992px) {

@@ -5,7 +5,7 @@ body {
 }
 
 .license_cgd {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .topbar-link b {
@@ -287,6 +287,10 @@ hr {
 @media (max-width: 767px) {
   .products-view__list {
     margin-bottom: 35px;
+  }
+
+  .product-card__name a {
+    font-size: 14px;
   }
 
   .product-image__img {

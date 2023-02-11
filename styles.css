@@ -337,6 +337,10 @@ hr {
     max-width: 28px;
   }
 
+  .block-slideshow__slide-button {
+    margin-top: 290px;
+  }
+
   .block-slideshow__slide-image--desktop {
     visibility: hidden;
   }
@@ -415,8 +419,9 @@ hr {
   .block-products-carousel[data-layout^="grid-"][data-mobile-grid-columns="2"] .product-card::before {
     border-radius: 10px;
   }
+  
   .block-slideshow__slide-button {
-    margin-top: 18rem;
+    margin-top: 290px;
   }
 }
 @media (max-width: 370px) {
@@ -428,7 +433,7 @@ hr {
     max-width: 24px;
   }
   .block-slideshow__slide-button {
-    margin-top: 18rem;
+    margin-top: 290px;
   }
 }
 @media (max-width: 340px) {
@@ -441,7 +446,7 @@ hr {
   }
 
   .block-slideshow__slide-button {
-    margin-top: 18rem;
+    margin-top: 290px;
   }
 }
 /* TABLET */

@@ -260,6 +260,11 @@ hr {
    max-width: 100%;
  }
 
+ .products-list[data-layout="list"] .product-card .product-card__actions {
+  width: 120px;
+  padding: 16px 0px;
+ }
+
  .products-list[data-layout="list"] .product-card .product-card__image {
   width: 160px;
  }

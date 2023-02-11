@@ -15,6 +15,14 @@ body {
   padding: 2px 10px;
 }
 
+[dir="ltr"] .products-list[data-layout="list"] .product-card .product-card__image {
+  padding: 0px;
+}
+
+.product-image__img {
+  border-radius: 10px;
+}
+
 .site-footer {
   color: white;
   margin-top: 32px;

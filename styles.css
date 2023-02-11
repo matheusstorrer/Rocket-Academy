@@ -293,8 +293,6 @@ hr {
     margin-bottom: 35px;
   }
 
-  
-
   .product-card__name a {
     font-size: 14px;
   }
@@ -337,10 +335,6 @@ hr {
 
   .mobile-header__logo img {
     max-width: 28px;
-  }
-
-  .block-slideshow__slide-button {
-    margin-top: 290px;
   }
 
   .block-slideshow__slide-image--desktop {

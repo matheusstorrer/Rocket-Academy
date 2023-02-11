@@ -282,8 +282,8 @@ hr {
 }
 @media (max-width: 767px) {
   .products-view__list {
-    margin-top: 64px;
-    margin-bottom: 64px;
+    
+    margin-bottom: 35px;
   }
 
   .product-gallery__featured .product-image {
@@ -340,6 +340,16 @@ hr {
     border-left: none;
     fill: #6211c0;
   }
+
+  [dir=ltr] .products-list[data-layout="list"] .product-card .product-card__info {
+    padding: 8px;
+
+  }
+
+  .products-list[data-layout="list"] .product-card .product-card__name {
+    height: 60px;
+  }
+
 
   .social-links__list {
     margin: 0 0 60px 2px;

@@ -293,12 +293,7 @@ hr {
     margin-bottom: 35px;
   }
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  
 
   .product-card__name a {
     font-size: 14px;

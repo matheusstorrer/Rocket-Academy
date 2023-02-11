@@ -282,9 +282,13 @@ hr {
 }
 @media (max-width: 767px) {
   .products-view__list {
-    
     margin-bottom: 35px;
   }
+
+  .products-list[data-layout="list"] .product-card .product-card__actions {
+    padding: 10px;
+  }
+
 
   .product-gallery__featured .product-image {
     padding: 0px;

@@ -310,9 +310,6 @@ if (
 document.getElementsByClassName('nav-links__item-link')[3].outerHTML =
   '<div class="nav-links__item-link keychainify-checked"><div class="nav-links__item-body">Todas as Categorias  ↓</div></div>'
 
-const cadastro = document.getElementsByClassName('topbar__item')[3]
-document.getElementsByClassName('topbar__row')[0].removeChild(cadastro)
-
 const topbarPortal = document.getElementsByClassName('topbar-link')[0]
 topbarPortal.innerHTML = '<b>Portal do Aluno</b>'
 topbarPortal.href = 'https://www.cursoo.com.br/login/1377'

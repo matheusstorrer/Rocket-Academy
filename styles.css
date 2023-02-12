@@ -276,6 +276,11 @@ hr {
    max-width: 100%;
  }
 
+ [dir=ltr] .products-list[data-layout="list"] .product-card .product-card__info {
+  padding-left: 20px;
+  
+ }
+
  .products-list[data-layout="list"] .product-card .product-card__actions {
   width: 120px;
   padding: 16px 0px;

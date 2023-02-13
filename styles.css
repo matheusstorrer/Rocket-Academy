@@ -277,6 +277,11 @@ hr {
    max-width: 100%;
  }
 
+ .lista_cont_programatico {
+  padding: 26px;
+  width: 700px;
+}
+
  [dir=ltr] .products-list[data-layout="list"] .product-card .product-card__info {
   padding-left: 20px;
   
